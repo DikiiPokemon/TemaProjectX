@@ -1,0 +1,455 @@
+#HatHeadder {
+    position: absolute;
+    height: 1266px;
+    width: 1900px;
+}
+#ImgPromo{
+    position: absolute;
+    height: 1266px;
+    width: 1900px;
+    top: 67px;
+
+}
+#ImgLogo{
+
+    position:absolute;
+
+}
+#Header{
+   
+    position: absolute;
+    height: 100px;
+    width: 1900px;
+    background: #FFFFFF;
+}
+
+#JoinUs{
+    position: absolute;
+    text-decoration: none;
+    
+    height: 26px;
+
+    left: 1180px;
+    top: 37px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 131.52%;
+
+    color: #090E34;
+
+}
+
+#SayHello{
+    position: absolute;
+    text-decoration: none;
+    
+    height: 26px;
+
+    left: 644px;
+    top: 37px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 131.52%;
+
+    color: #090E34;
+}
+
+#RealBenefit{
+    position: absolute;
+    text-decoration: none;
+    
+    height: 26px;
+
+    left: 809px;
+    top: 37px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 131.52%;
+
+    color: #090E34;
+}
+
+#OurCustomers{
+    position: absolute;
+    text-decoration: none;
+    
+    height: 26px;
+
+    left: 980px;
+    top: 37px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 131.52%;
+
+    color: #090E34;
+}
+
+#ShortPromoText{
+    position: absolute;
+    top: 160px;
+    left: 465px;
+    width: 970px;
+    height: 85px;
+
+    background: #D12A32;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 131.52%;
+
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+#SwitchLaguages{
+    position: absolute;
+    width: 60px;
+    height: 30px;
+
+    right: 50px;
+    top: 35px;
+
+    border: 1px solid #090E34;
+    border-radius: 36px;
+}
+
+#JU{
+    position: absolute;
+    width: 1900px;
+    height: 99px;
+    top: 980px;
+
+    background-color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33.5846px;
+    line-height: 131.52%;
+
+ 
+    text-align: center;
+
+    color: #090E34;
+}
+
+#Lemon{
+    position: absolute;
+    width: 66px;
+    height: 46px;
+    left: 666.21px;
+    top: 26.87px;
+    z-index: 1;
+}
+
+#ArrowLeft{
+    position: absolute;
+    height: 90.8px;
+    width: 90.8px;
+    top: 8.85px;
+    left: 770.26px;
+    z-index: 1;
+}
+
+#JUText{
+    position: absolute;
+    left: 882.83px;
+    top: 26.87px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33.5846px;
+    line-height: 131.52%;
+    color: #090E34;
+    z-index: 1;
+}
+
+#ArrowRight{
+    position: absolute;
+    height: 90.8px;
+    width: 90.8px;
+    left: 1045.82px;
+    right: 41.52%;
+    top: 2.5px;
+    z-index: 1;
+}
+
+#Apple{
+    position: absolute;
+    width: 50.38px;
+    height: 44.5px;
+    left: 1175.86px;
+    top: 26.87px;
+    z-index: 1;
+}
+
+#ShortInfo{
+    
+    position: absolute;
+    width: 1900px;
+    height: 199px;
+    left: 0px;
+    top: 1100px;
+
+    background: #D12A32;
+}
+
+#ImgShortInfo{
+    position: absolute;
+    width: 1014px;
+    height: 139px;
+    left: 443px;
+    top: 30px;
+}
+
+#FirstHeader{
+    position: absolute;
+    height: 744px;
+    width: 1900px;
+    top: 1299px;
+    background: #FFFFFF;
+}
+
+h1{
+   
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 131.52%;
+    
+    color: #090E34;
+
+}
+
+#RedTablet{
+    position: absolute;
+    top: 159px;
+    background: #D12A32;
+    width: 950px;
+    height: 585px;
+}
+
+#YellowTablet{
+    position: absolute;
+    top: 159px;
+    background: #FFC400;
+    left: 950px;
+    width: 950px;
+    height: 585px;
+}
+
+#SecondHeader{
+    position: absolute;
+    top: 2043px;
+    height: 841px;
+    width: 1900px;
+}
+
+#ThirdHeader{
+    position: absolute;
+    height: 953.05px;
+    width: 1900px;
+    top: 2884px;
+
+    background: #FFC400;
+
+}
+
+#LastHeader{
+    position: absolute;
+    top: 3837px;
+    height: 1138px;
+    width: 1900px;
+    background: linear-gradient(180deg, #F6F6F6 0%, #F5F5F5 52.08%, #F9F9F9 100%);
+
+}
+
+#HeadBottomImg{
+    position: absolute;
+    right: 300px;
+}
+
+#JUBottom{
+    position: absolute;
+    width: 1900px;
+    height: 99px;
+    top: 1018.95px;
+
+    background-color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33.5846px;
+    line-height: 131.52%;
+
+ 
+    text-align: center;
+
+    color: #090E34;
+}
+
+#IncInfoBottom{
+    position: absolute;
+    height: 219px;
+    width: 1900px;
+    top: 799.95px;
+    background: #D12A32;
+}
+
+#ImgBottomLogo{
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    width: 264px;
+    height: 119px;
+}
+
+#JoinUsBottom{
+    position: absolute;
+    text-decoration: none;
+    
+    height: 26px;
+
+    left: 1185px;
+    top: 64px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 131.52%;
+
+
+
+    color: #FFCACA;
+
+}
+
+#SayHelloBottom{
+    position: absolute;
+    text-decoration: none;
+    
+    height: 26px;
+
+    left: 639px;
+    top: 64px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 131.52%;
+    
+    
+    
+    color: #FFCACA;
+}
+
+#RealBenefitBottom{
+    position: absolute;
+    text-decoration: none;
+    
+    height: 26px;
+
+    left: 807px;
+    top: 64px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 131.52%;
+
+
+
+    color: #FFCACA;
+}
+
+#OurCustomersBottom{
+    position: absolute;
+    text-decoration: none;
+    
+    height: 26px;
+
+    left: 982px;
+    top: 64px;
+
+    font-family: 'Montserrat';  
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 131.52%;
+
+
+
+    color: #FFCACA;
+}
+
+#InstagrammImage{
+    position: absolute;
+    left: 0.06px;
+    height: 32px;
+    width: 31.99px;
+
+}
+
+#InstagrammFollow{
+    position: absolute;
+    text-decoration: none;
+    top: 123px;
+    left: 862px;
+    height: 32px;
+    width: 177px;
+    text-align: right;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 131.52%;
+    color: #FFFFFF;
+}
+
+#IncSign{
+    position: absolute;
+    height: 119px;
+    width: 119px;
+    top: 50px;
+    left: 1631px;
+
+}
+
+#RedBottle{
+    position: absolute;
+    width: 268.99px;
+    height: 474px;
+    top: 59px;
+    left: 340px;
+}
+
+#YellowBottle{
+    position: absolute;
+    width: 268.99px;
+    height: 474px;
+    top: 59px;
+    left: 340px;
+}
