@@ -1,9 +1,9 @@
 @font-face {
     font-family:'Montserrat'; 
   src: local('Montserrat'),
-  url(Montserrat-Regular.ttf) format('ttf'),
-  url(Montserrat-Regular.woff) format('woff'),
-  url(Montserrat-Regular.woff2) format('woff2'); 
+  url(fonts/Montserrat-Regular.ttf) format('ttf'),
+  url(fonts/Montserrat-Regular.woff) format('woff'),
+  url(fonts/Montserrat-Regular.woff2) format('woff2'); 
 }
 
 
@@ -27,11 +27,13 @@
 }
 #Header{
    
-    position: absolute;
+    position: fixed;
+    z-index: 10;
     height: 100px;
     width: 1900px;
     background: #FFFFFF;
 }
+
 
 #JoinUs{
     position: absolute;
@@ -469,4 +471,8 @@ h1{
     position: absolute;
     top: 5.5px;
     right: 0px;
+}
+
+#LastHeader :hover #JU{
+    display: none;
 }
