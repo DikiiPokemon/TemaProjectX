@@ -420,11 +420,6 @@ h1{
     width: 177px;
     text-align: right;
 
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 131.52%;
     color: #FFFFFF;
 }
 
@@ -441,6 +436,13 @@ h1{
     position: absolute;
     top: 5.5px;
     right: 0px;
+
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 131.52%;
 }
 
 #LastHeader :hover #JU{
