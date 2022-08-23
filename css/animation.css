@@ -1,26 +1,82 @@
-*, *:after, *:before { 
-	/*border-box;*/ 
-	box-sizing: border-box; 
-}
-.clearfix:before, .clearfix:after { 
-	content: ''; 
-	display: table; 
-}
-.clearfix:after { 
-	clear: both; 
-}
 #RedTablet{
-    overflow: hidden;
-	margin: 0;
-	width: 100%;
-	list-style: none;
-	text-align: center;
+    position: absolute;
+    top: 159px;
+    background: #D12A32;
+    width: 950px;
+    height: 585px;
+
+	
+
+
 }
 
-#RedTablet figure{
-    overflow: hidden;
-	margin: 0;
-	width: 100%;
-	list-style: none;
-	text-align: center;
+
+#YellowTablet{
+    position: absolute;
+    top: 159px;
+    background: #FFC400;
+    left: 950px;
+    width: 950px;
+    height: 585px;
 }
+
+#Bottle{
+    position: absolute;
+    width: 268.99px;
+    height: 474px;
+    top: 59px;
+    left: 340px;
+
+	transition: 1s;
+}
+
+
+p{
+	position: absolute;
+	top: 77px;
+	left: 407px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 46px;
+	line-height: 131.52%;
+	color: #FFFFFF;
+}
+
+#UnderLine{
+	position: absolute;
+	width: 486px;
+	height: 2px;
+	left: 407px;
+	top: 161px;
+}
+
+#BodyText{
+	position: absolute;
+	position: absolute;
+	width: 520.92px;
+	height: 280px;
+	left: 407px;
+	top: 183px;
+}
+#Block{
+	visibility: hidden;
+	opacity: 0;
+	transition: 1s;
+}
+
+.Info:hover > #Block{
+	opacity: 1;
+	visibility: visible;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.Info:hover > #Bottle{
+	width: 227px;
+	height: 400px;
+	left: 100px;
+	top: 96px;
+	transition: 1s;
+}
+
