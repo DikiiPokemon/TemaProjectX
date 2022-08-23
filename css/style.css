@@ -1,7 +1,17 @@
+@font-face {
+    font-family:'Montserrat'; 
+  src: local('Montserrat'),
+  url(Montserrat-Regular.ttf) format('ttf'),
+  url(Montserrat-Regular.woff) format('woff'),
+  url(Montserrat-Regular.woff2) format('woff2'); 
+}
+
+
 #HatHeadder {
     position: absolute;
     height: 1266px;
     width: 1900px;
+    backdrop-filter: blur(20px);
 }
 #ImgPromo{
     position: absolute;
@@ -122,7 +132,7 @@
     position: absolute;
     width: 60px;
     height: 30px;
-
+    background: none;
     right: 50px;
     top: 35px;
 
@@ -131,19 +141,20 @@
 }
 
 #JU{
-    position: absolute;
+    position: fixed;
     width: 1900px;
     height: 99px;
-    top: 980px;
+    bottom: 0px;
 
+    border-top: 1px solid #FFDBDD;
     background-color: #FFFFFF;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 33.5846px;
+    font-size: 40px;
     line-height: 131.52%;
 
- 
+    z-index: 10;
     text-align: center;
 
     color: #090E34;
@@ -174,7 +185,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 33.5846px;
+    font-size: 40px;
     line-height: 131.52%;
     color: #090E34;
     z-index: 1;
@@ -452,4 +463,10 @@ h1{
     height: 474px;
     top: 59px;
     left: 340px;
+}
+
+#FollowText{
+    position: absolute;
+    top: 5.5px;
+    right: 0px;
 }
