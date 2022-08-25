@@ -23,15 +23,30 @@ $(window).scroll(function(){
 }
 });
 
+//Button to top appearance
+$(window).scroll(function(){
+  if ($(window).scrollTop() > 200) { //если страница прокручена
+    $('#ButtonConteiner').css('opacity', '1')
+  } else {//иначе
+      $('#ButtonConteiner').css('opacity', '0')
+  }
+});
+
+//Button to Top Function Up
+
+$('#BackTop').on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
 
 
 console.log($('#LastHeader').css('top'))
 
 //Slider
-var IdRed;
-var IdWhite;
+var IdRed; //id of the tag navigation button, that active
+var IdWhite;//id of the tag navigation button, that was active
 var slideNow = 1;
-var previousSlide;
+var previousSlide;//number of the previous slide
 var slideCount = $('#SlideWrapper').children().length;
 
 console.log(slideCount);
@@ -41,10 +56,10 @@ function nextSlide() {
       $('#SlideWrapper').css('transform', 'translate(0, 0)');
       slideNow = 1;
       previousSlide = slideCount;
-      IdRed = `#Button` + slideNow; 
-      IdWhite = `#Button` + previousSlide;
-      $(IdWhite).css('background', '#fff'); 
-      $(IdRed).css('background', '#D12A32');
+      IdRed = `#Button` + slideNow; //Element Id of html for coloring red
+      IdWhite = `#Button` + previousSlide;//Element Id of html for uncoloring
+      $(IdWhite).css('background', '#fff'); //uncoloring previous active navigation button
+      $(IdRed).css('background', '#D12A32');//coloring active navigation button
   } else {
       translateWidth = -$('#ViewArea').width() * (slideNow);
       $('#SlideWrapper').css({
