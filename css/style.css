@@ -6,475 +6,528 @@
   url(fonts/Montserrat-Regular.woff2) format('woff2'); 
 }
 
-
-#HatHeadder {
-    position: absolute;
-    height: 1266px;
-    width: 1900px;
-    
-}
-#ImgPromo{
-    position: absolute;
-    height: 1266px;
-    width: 1900px;
-    top: 67px;
-
-}
-#ImgLogo{
-
-    position:absolute;
-
-}
-#Header{
-   
-    position: fixed;
-    z-index: 10;
-    height: 100px;
-    width: 1900px;
-    background: #FFFFFF;
-    filter: drop-shadow(0px 114px 46px rgba(0, 0, 0, 0.01)) drop-shadow(0px 64px 38px rgba(0, 0, 0, 0.03)) drop-shadow(0px 29px 29px rgba(0, 0, 0, 0.04)) drop-shadow(0px 7px 16px rgba(0, 0, 0, 0.05)) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.05));
-}
-
-
-#JoinUs{
-    position: absolute;
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a {
+    color: #242e31;
     text-decoration: none;
-    
-    height: 26px;
+    font-weight: 600;
+   }
 
-    left: 1180px;
-    top: 37px;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 131.52%;
-
-    color: #090E34;
-
-}
-
-#SayHello{
-    position: absolute;
-    text-decoration: none;
-    
-    height: 26px;
-
-    left: 644px;
-    top: 37px;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 131.52%;
-
-    color: #090E34;
-}
-
-#RealBenefit{
-    position: absolute;
-    text-decoration: none;
-    
-    height: 26px;
-
-    left: 809px;
-    top: 37px;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 131.52%;
-
-    color: #090E34;
-}
-
-#OurCustomers{
-    position: absolute;
-    text-decoration: none;
-    
-    height: 26px;
-
-    left: 980px;
-    top: 37px;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 131.52%;
-
-    color: #090E34;
-}
-
-#ShortPromoText{
-    position: absolute;
-    top: 160px;
-    left: 465px;
-    width: 970px;
-    height: 85px;
-
-    background: #D12A32;
-
+body{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 65px;
     line-height: 131.52%;
-
-
     text-align: center;
+    color: #090E34;
+}
 
-    color: #FFFFFF;
+.header{
+    z-index: 10;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 5.2vw;
+    width: 100%;
+    background: #FFFFFF;
+    filter: drop-shadow(0px 114px 46px rgba(0, 0, 0, 0.01)) drop-shadow(0px 64px 38px rgba(0, 0, 0, 0.03)) drop-shadow(0px 29px 29px rgba(0, 0, 0, 0.04)) drop-shadow(0px 7px 16px rgba(0, 0, 0, 0.05)) drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.05));
 
 }
 
-#SwitchLaguages{
+.blockCenter{
     position: absolute;
-    width: 60px;
-    height: 30px;
-    background: none;
-    right: 50px;
-    top: 35px;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
 
+.logo{
+    width: 16vw;
+    height: 5.2vw;
+    background-image: url(../images/Logo.svg);
+    background-size: cover;
+}
+
+.buttonContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0 2.6vw;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1272,74px;
+    margin: 0 2.6vw;
+}
+.navigation a{
+    text-decoration: none;
+    color: #090E34;
+    margin-right: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 131.52%;
+}
+
+
+
+.buttonBlock{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 5.2vw;
+    width: 13.9vw;
+    padding-right: 2.6vw;
+}
+
+.languagesContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 3.2vw;
+    height: 1.6vw;
+    padding: 0 0.5vw;
+    font-weight: 400;
+    font-size: 0.74vw;
+    line-height: 17px;  
     border: 1px solid #090E34;
     border-radius: 36px;
 }
 
-#JU{
-    display: block;
-    position: fixed;
-    width: 1900px;
-    height: 99px;
-    bottom: 0px;
+.languagesContainer:hover{
+    cursor: pointer;
+}
 
+#changeLang{
+    width: 0.32vw;
+    height: 0.53vw;
+}
+
+.JoinUs{
+    position: fixed;
+    bottom: 0;
+    height: 5.2vw;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     border-top: 1px solid #FFDBDD;
     background-color: #FFFFFF;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.1vw;
     line-height: 131.52%;
-
     z-index: 10;
-    text-align: center;
-
     color: #090E34;
 }
 
-#Lemon{
-    position: absolute;
-    width: 66px;
-    height: 46px;
-    left: 666.21px;
-    top: 26.87px;
-    z-index: 1;
+.contentConteiner{
+    width: 40vw;
+    height: 5.2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
-#ArrowLeft{
-    position: absolute;
-    height: 90.8px;
-    width: 90.8px;
-    top: 8.85px;
-    left: 770.26px;
-    z-index: 1;
+.content-wrapper{
+    height: 261.8vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background: linear-gradient(90deg, #FBFBFB 0%, #FDFDFD 100%);
 }
 
-#JUText{
-    position: absolute;
-    left: 882.83px;
-    top: 26.87px;
+.promo{
+  	
+    padding-top: 4.9vw;
+    top: 3.5vw;
+    width: 100%;
+}
+
+.promoConteiner{
+    position: relative;
+    width: 100%;
+    height: 84.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.promo img{
+    width: 100%; 
+    float: left;
+}
+
+.headPromo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.centerPromo{
+    background-image: url(../images/Promo.svg);
+    background-size: cover;
+    width: 100%;
+    height: 42.1vw;
+}
+
+.footerPromo{
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 14.8%;
+    background: #D12A32;
+
+}
+
+.footerSpace{
+    width: 100%;
+    height: 10.5vw;
+}
+
+.footerPromoImg{
+    width: 53.4%;
+    height: 69.8%;  
+}
+
+.textPromo{
+    width: 51.1vw;
+    height: 4.5vw;
+    background: #D12A32;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 131.52%;
-    color: #090E34;
-    z-index: 1;
+    font-size: 3.4vw;
+    line-height: 131.52%;  
+    color: #FFF; 
 }
 
-#ArrowRight{
+.pageContainer{
     position: absolute;
-    height: 90.8px;
-    width: 90.8px;
-    left: 1045.82px;
-    right: 41.52%;
-    top: 2.5px;
-    z-index: 1;
-}
-
-#Apple{
-    position: absolute;
-    width: 50.38px;
-    height: 44.5px;
-    left: 1175.86px;
-    top: 26.87px;
-    z-index: 1;
-}
-
-#ShortInfo{
     
-    position: absolute;
-    width: 1900px;
-    height: 199px;
-    left: 0px;
-    top: 1100px;
-
-    background: #D12A32;
 }
 
-#ImgShortInfo{
-    position: absolute;
-    width: 1014px;
-    height: 139px;
-    left: 443px;
-    top: 30px;
+.firstHeader{
+    width: 100%;
+    height: 39.2vw;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-#FirstHeader{
-    position: absolute;
-    height: 744px;
-    width: 1900px;
-    top: 1299px;
+.headerName{
+    width: 100%;
+    height: 21.4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #FFFFFF;
 }
 
-h1{
-   
-    text-align: center;
+.firstHeaderText{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 3.2vw;
     line-height: 131.52%;
-    
-    color: #090E34;
-
 }
 
-
-
-#SecondHeader{
-    position: absolute;
-    top: 2043px;
-    height: 841px;
-    width: 1900px;
+.firstContent{
+    width: 100%;
+    height: 78.6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
 }
 
-#ThirdHeader{
-    position: absolute;
-    height: 953.05px;
-    width: 1900px;
-    top: 2884px;
-
-    background: #FFC400;
-
-}
-
-#LastHeader{
-    position: absolute;
-    top: 3837px;
-    height: 1138px;
-    width: 1900px;
-    background: linear-gradient(180deg, #F6F6F6 0%, #F5F5F5 52.08%, #F9F9F9 100%);
-
-}
-
-#HeadBottomImg{
-    position: absolute;
-    right: 300px;
-}
-
-#JUBottom{
-    position: absolute;
-    width: 1900px;
-    height: 99px;
-    top: 1018.95px;
-
-    background-color: #FFFFFF;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 33.5846px;
-    line-height: 131.52%;
-
- 
-    text-align: center;
-
-    color: #090E34;
-}
-
-#IncInfoBottom{
-    position: absolute;
-    height: 219px;
-    width: 1900px;
-    top: 799.95px;
+.AppleCider{
+    width: 50%;
+    height: 100%;
     background: #D12A32;
+    position: relative;
 }
 
-#ImgBottomLogo{
-    position: absolute;
-    top: 50px;
-    left: 150px;
-    width: 264px;
-    height: 119px;
-}
-
-#JoinUsBottom{
-    position: absolute;
-    text-decoration: none;
+.VitaminD3{
+    width: 50%;
+    height: 100%;
+    background: #FFC400;
+    position: relative;
     
-    height: 26px;
+}
 
-    left: 1185px;
-    top: 64px;
+.secondHeader{  
+    width: 100%;
+    height: 44vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Name{
+    width: 100%;
+    height: 8.4vw;
+    
+}
+
+.secondBody{
+    width: 100%;
+    height: 35.6vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
 
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 3.2vw;
     line-height: 131.52%;
+}
+
+.Text img{
+    width: 21.6vw;
+    height: 2.1vw;
+}
+.secondBody img{
+    width: 17.6vw;
+    height: 23.9vw;
+}
+
+.secondContainer{
+    width: 78.4vw;
+    height: 35.6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.thirdHeader{
+    width: 100%;
+    height: 50.2vw;
+    background: #FFC400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thirdContainer{
+    width: 83.3vw;
+    height: 41.7vw;
+}
 
 
 
-    color: #FFCACA;
+.lastHeader{
+    width: 100%;
+    height: 42.1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.FillBackground{
+    width: 14.3vw;
+    height: 42.1vw;  
+    background: linear-gradient(180deg, #F6F6F6 0%, #F5F5F5 52.08%, #F9F9F9 100%);
+}
+
+.imgBackground{
+    width: 72.3vw;
+    height: 42.1vw;
+    top: -2.7vw;
+    background-image: url(../images/HeadBottomImg.svg);
+    background-size:cover;
 
 }
 
-#SayHelloBottom{
-    position: absolute;
-    text-decoration: none;
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 11.5vw;
+    background: #D12A32;
     
-    height: 26px;
-
-    left: 639px;
-    top: 64px;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 131.52%;
-    
-    
-    
-    color: #FFCACA;
 }
 
-#RealBenefitBottom{
-    position: absolute;
-    text-decoration: none;
-    
-    height: 26px;
-
-    left: 807px;
-    top: 64px;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 131.52%;
-
-
-
-    color: #FFCACA;
+.footerMobileConteiner{
+    display: none;
+    width: 82.5px;
+    height: 181.3vw;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#OurCustomersBottom{
-    position: absolute;
-    text-decoration: none;
-    
-    height: 26px;
-
-    left: 982px;
-    top: 64px;
-
-    font-family: 'Montserrat';  
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 131.52%;
 
 
-
-    color: #FFCACA;
+.DesktopFooter{
+    width: 100%;
+    height: 11.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-#InstagrammImage{
-    position: absolute;
-    left: 0.06px;
-    height: 32px;
-    width: 31.99px;
-
-}
-
-#InstagrammFollow{
-    position: absolute;
-    text-decoration: none;
-    top: 123px;
-    left: 862px;
-    height: 32px;
-    width: 177px;
-    text-align: right;
-
-    color: #FFFFFF;
+.footer img{
+    width: 13.9vw;
+    height: 6.3vw;
 }
 
 #IncSign{
-    position: absolute;
-    height: 119px;
-    width: 119px;
-    top: 50px;
-    left: 1631px;
-
+    width: 6.3vw;
+    height: 6.3vw;
 }
 
-#FollowText{
-    position: absolute;
-    top: 5.5px;
-    right: 0px;
+.centerInc{
+    width: 32.8vw;
+    height: 4.8vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
 
-    
+.footerHeaders{
+    width: 32.8vw;
+    height: 1.4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1vw;
+    line-height: 131.52%;
+   
+}
+
+.footerHeaders a{
+    text-decoration: none;
+    color: #FFCACA;
+}
+
+.InstFollow{
+    width: 9.3vw;
+    height: 1.7vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 0.8vw;
+    line-height: 131.52%;
+    color: #FFCACA;
+}
+
+.InstFollow img{
+    height: 1.7vw;
+    width: 1.7vw;
+}
+
+.InstFollow a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.JoinUsBottom{
+    width: 100%;
+    height: 6.3vw;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.1vw;
     line-height: 131.52%;
 }
 
-#LastHeader :hover #JU{
-    display: none;
-}
-
-#BackTop{
-    position: fixed;
-    width: 66px;
-    height: 66px;       
-    right: 50px;
-    top: 780px;
-    z-index: 11;
-    background: rgba(209, 42, 50, 0.4);
-    border: 2px solid #FFFFFF;  
-    border-radius: 50%;
-}
-
-#ButtonTop{
-    position:absolute ;
+.JoinUsMobile{
     width: 100%;
-    height: 37.33px;
-    top: 17.94px;
-    opacity: 1;
-    transition: 1s;
+    height: 72.1vw;
+    display: none;
+    justify-content: center;
+    align-items: center;
+   background-image: url(../images/ArrowsMobile.svg);
+   background-size: contain;
 }
 
-#BackTop:hover {
-    cursor: pointer;
+.JoinUsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 85.4vw;
+    height: 53.4vw;
+    
 }
 
-#ButtonConteiner{
-    opacity: 0;
-    transition: 0;
+.BottomText{
+    width: 37.5vw;
+    height: 12.2vw;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9.4vw;
+    line-height: 131.52%;
+
+    text-align: center;
+
+    color: #090E34;
+}
+
+.BottomFollow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 85.4vw;
+    height: 20.9vw;
+}
+
+.JoinUsContainer img{
+    left: 25.48%;
+    right: 55.42%;
+    top: 21.66%;
+    bottom: 52.94%;
+    height: 20.8vw;
+    width: 20.1vw;
 }

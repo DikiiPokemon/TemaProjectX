@@ -8,158 +8,282 @@
     <link href="css\style.css" rel="stylesheet" type="text/css" />
     <link href="css\animation.css" rel="stylesheet" type="text/css" />
     <link href="css\Slider.css" rel="stylesheet" type="text/css" />
+    <link href="css\burger.css" rel="stylesheet" type="text/css" />
+    <link href="css\media-queries.css" rel="stylesheet" type="text/css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>MethOnline</title>
   </head>
-  <body id="top">
-
-    
-
-    <div id="JU">
-              
-      <a href=""><img src="images/Lemon.svg" id="Lemon"></a>
-      <img src="images/ArrowLeft.svg" id="ArrowLeft">
-      <p id="JUText">Join us!</p>
-      <img src="images/ArrowRight.svg" id="ArrowRight">
-      <a href=""><img src="images/Apple.svg" id="Apple"></a>
-        
-    </div>
-
-    <div id="ButtonConteiner"><div id="BackTop"><img id="ButtonTop" src="images/ArrowUp.svg"></div></div>
-
-    <div id="Header">
-      <img src="images/Logo.svg" id="ImgLogo">    
-      <a id="SayHello" href="#FirstHeader">Say hello to</a>
-      <a id="RealBenefit" href="#SecondHeader">Real benefit</a>
-      <a id="OurCustomers" href="#ThirdHeader">Our customers</a>
-      <a id="JoinUs" href="#LastHeader">Join us!</a>
-      <button id="SwitchLaguages"></button>
-    </div>
-
- 
-
-    <div id="HatHeadder">
-      <img src="images/Promo.svg" id="ImgPromo">
-            
-            
-           
-            
-
-      <div id="ShortPromoText">For your health & beauty</div>
-           
-        <div id="ShortInfo">
-          <img src="images/ShortInfo.svg" id="ImgShortInfo">
-        </div>
-    </div>
-    
-
-    <div id="FirstHeader"><a name="FirstHeader"></a><div style="height: 159px ;width: 1900px;  margin-top: 40px;"><h1>Say hello to</h1></div>
-      <div id="RedTablet" class="Info">
-              
-        <div id="Block">
-          <p>Apple Cider Vinegar</p>
-          <img id="UnderLine" src="images/UnderLine.svg">
-          <img id="BodyText" src="images/BodyText.svg">
-              
-                
-        </div>
-        <img src="images/RedBottle.svg" id="Bottle" >
-      </div>
-      <div id="YellowTablet" class="Info">
-        <div id="Block">
-          <p>Vitamin D3</p>
-          <img id="UnderLine" src="images/UnderLine.svg">
-          <img id="BodyText" src="images/BodyTextYellow.svg">
-              
-                
-        </div>
-
-        <img src="images/YellowBottle.svg" id="Bottle">
-      </div>
-    </div>
-
-    <div id="SecondHeader"><a name="SecondHeader"></a><div style="height: 159px ;width: 1900px;  margin-top: 80px;"><h1>Real benefit</h1></div>
-      <div id="FeedBack">
-        <div id="FirstBlock"></div>
-        <div id="SecondBlock"></div>
-        <div id="ThirdBlock"></div>
-        <div id="FourthBlock"></div>
-      </div>
-    </div>
-
-    <div id="ThirdHeader">
-      <a name="ThirdHeader"></a>
-      <div style="height: 159px ;width: 1900px;  margin-top: 80px;"><h1>Our customers</h1></div>
-      <div id="Slider">
-    
-        <div id="ViewArea">
-          <div id="SlideWrapper">
-  
-          
-            <div class="Slide">
-              <div class="SlideContainer">
-                <img src="images/NoneImage.svg" class="Slide-Img">
-              </div>
-              
-              <div class="SlideContainer">
-                <img src="images/FirstSlide.svg" class="Slide-Img">
-              </div> 
-            </div> 
-            <div class="Slide">
-              <div class="SlideContainer">
-                <img src="images/SecondSlide.svg" class="Slide-Img">
-              </div>
-              
-              <div class="SlideContainer">
-                <img src="images/NoneImage.svg" class="Slide-Img">
-              </div>
-            </div>
-            <div class="Slide">
-              <div class="SlideContainer">
-                <img src="images/NoneImage.svg" class="Slide-Img">
-              </div>
-              
-              <div class="SlideContainer">
-                <img src="images/NoneImage.svg" class="Slide-Img">
-              </div>
-            </div>
-  
+  <body>
+    <div class="header">
+      <div class="blockCenter">
+        <div class="logo"></div>
+        <div class="buttonContainer">
+          <div class="navigation">
+            <a href="#FirstHeader">Say hello to</a>
+            <a href="#SecondHeader">Real benefit</a>
+            <a href="#ThirdHeader">Our customers</a>
+            <a href="#LastHeader">Join us!</a>
           </div>
         </div>
-  
+        <div class="buttonBlock">
+          <div class="languagesContainer">Ru<img id="changeLang" src="images/SwitchLang.svg"></div>
+        </div>
+        
+      </div>
+      <div class="hiddenDiv">
+        <div class="logo"></div>
+      <div class="menu-burger__header">
+        <span></span>
+      </div>
+
+    
+      </div>
       
-      </div>
-      <div id="ButtonPrevious"><img src="images/SliderArrowLeft.svg"></div>
-      <div id="ButtonNext"><img src="images/SliderArrowRight.svg"></div>
+    </div>
 
-      <div class="Navigation">
-        <div class="NavButton" id="Button1"></div>
-        <div class="NavButton" id="Button2"></div>
-        <div class="NavButton" id="Button3"></div>
+    <div class="JoinUs">
+      <div class="contentConteiner">
+        <a href=""><img src="images/Lemon.svg" style="width: 4.1vw; height: 2.8vw;"></a>
+        <img src="images/ArrowLeft.svg" style="width: 5.7vw; height: 5.7vw;">
+        Join us!
+        <img src="images/ArrowRight.svg" style="width: 5.7vw; height: 5.7vw;">
+        <a href=""><img src="images/Apple.svg" style="width: 3.2vw; height: 2.8vw;"></a>
       </div>
     </div>
 
-    <div id="LastHeader">
-      <img src="images/HeadBottomImg.svg" id="HeadBottomImg">
-      <div id="IncInfoBottom">
-        <img src="images/BottomLogo.svg" id="ImgBottomLogo">
-        <a id="SayHelloBottom" href="#FirstHeader">Say hello to</a>
-        <a id="RealBenefitBottom" href="#SecondHeader">Real benefit</a>
-        <a id="OurCustomersBottom" href="#ThirdHeader">Our customers</a>
-        <a id="JoinUsBottom" href="#LastHeaderBottom">Join us!</a>
-        <a href="" id="InstagrammFollow"><img id="InstagrammImage" src="images/InstImg.svg"><h2 id="FollowText">@my.gummies</h2></a>
-        <img id="IncSign" src="images/MadeInUK.svg">
-      </div>
-      <div id="JUBottom">
-              
-        <img src="images/Lemon.svg" id="Lemon">
-        <img src="images/ArrowLeft.svg" id="ArrowLeft">
-        <p id="JUText">Join us!</p>
-        <img src="images/ArrowRight.svg" id="ArrowRight">
-        <img src="images/Apple.svg" id="Apple">
+    <!-- Content of the Page-->
+    <div class="content-wrapper">
+
+      <nav class="header__nav">
+        <div class="languagesContainer">Ru<img id="changeLang" src="images/SwitchLang.svg"></div>
+        <ul class="menu header__menu">
+            <li><a href="#FirstHeader" class="menu__item">Say hello to</a></li>
+            <li><a href="#SecondHeader" class="menu__item">Real benefit</a></li>
+            <li><a href="#ThirdHeader" class="menu__item">Our customers</a></li>
+            <li><a href="#LastHeader" class="menu__item">Join us!</a></li>
+        </ul>
+    </nav>
+      <!-- Introdaction of the Site-->
+      <div class="promo">
+        <div class="promoConteiner">
+          <div class="headPromo">
+            <div class="textPromo">For your health & beauty</div>
+          </div>
+          <div class="centerPromo"></div>
           
+        </div>
+        <div class="footerPromo"><img class="footerPromoImg" src="images/ShortInfo.svg"></div>
+      </div>
+      <!--Info about the products-->
+      <div class="firstHeader">
+        <a name="FirstHeader"></a>
+        <div class="headerName"><div class="firstHeaderText">Say hello to</div></div>
+        <div class="firstContent">
+          <!--Animation Blocks-->
+          <div class="AppleCider">
+            <div class="Bottle"><img src="images/RedBottle.svg"></div>
+            <div class="Info">
+              <p>Apple Cider Vinegar</p> 
+              <img id="UnderLine" src="images/UnderLine.svg">
+              <img src="images/BodyText.svg">
+            </div>
+          </div>
+          <div class="VitaminD3">
+            <div class="Bottle"><img src="images/YellowBottle.svg"></div>
+            <div class="Info">
+              <p>Vitamin D3</p> 
+              <img id="UnderLine" src="images/UnderLine.svg">
+              <img id="BodyText" src="images/BodyTextYellow.svg"></div>
+          </div>
+        </div>
+      </div>
+      <!--Benefit information-->
+      <div class="secondHeader">
+        <a name="SecondHeader"></a>
+        <div class="secondContainer">
+          <div class="Name">
+            <div class="Text">Real benefit
+              <img src="images/BenefitLine.svg">
+            </div>
+          </div>
+          <div class="secondBody">
+            <img src="images/Benefit1.svg">
+            <img src="images/Benefit2.svg">
+            <img src="images/Benefit3.svg">
+            <img src="images/Benefit4.svg">
+          </div>
+        </div>
+        </div>
+
+        <!--Slider Block-->
+        <div class="thirdHeader">
+          <a name="ThirdHeader"></a>
+          <div class="thirdContainer">
+            <div class="Name">
+              <div class="Text">Our customers
+                <img src="images/BenefitLine.svg">
+              </div>
+            </div>
+           
+
+            <div class="SliderContainer">
+              <div class="ButtonPrevious" id="ButtonPrevious"><img src="images/SliderArrowLeft.svg"></div>
+              <div class="ViewArea">
+                <div class="SlideWrapper" id="Desktop">
+                  <div class="Slide">
+                    <div class="SlideContainer">
+                      <img src="images/NoneImage.svg" class="Slide-Img">
+                    </div>
+                    
+                    <div class="SlideContainer">
+                      <img src="images/FirstSlide.svg" class="Slide-Img">
+                    </div> 
+                  </div> 
+                  <div class="Slide">
+                    <div class="SlideContainer">
+                      <img src="images/SecondSlide.svg" class="Slide-Img">
+                    </div>
+                    
+                    <div class="SlideContainer">
+                      <img src="images/NoneImage.svg" class="Slide-Img">
+                    </div>
+                  </div>
+                  <div class="Slide">
+                    <div class="SlideContainer">
+                      <img src="images/NoneImage.svg" class="Slide-Img">
+                    </div>
+                    
+                    <div class="SlideContainer">
+                      <img src="images/NoneImage.svg" class="Slide-Img">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="ButtonNext" id="ButtonNext"><img src="images/SliderArrowRight.svg"></div>
+            </div>
+            <div class="Navigation">
+              <div class="NavButton" id="Button1"></div>
+              <div class="NavButton" id="Button2"></div>
+              <div class="NavButton" id="Button3"></div>
+            </div>
+
+            <div class="MobileSliderConteiner">
+              <div class="ViewArea">
+                <div class="SlideWrapper" id="Mobile">
+                  <div class="Slide">
+                    <div class="SlideContainer">
+                      <img src="images/FirstSlide.svg" class="Slide-Img">
+                    </div>
+                  </div>
+                  <div class="Slide">
+                    <div class="SlideContainer">
+                      <img src="images/SecondSlide.svg" class="Slide-Img">
+                    </div>
+                  </div>
+                  <div class="Slide">
+                    <div class="SlideContainer">
+                      <img src="images/NoneImage.svg" class="Slide-Img">
+                    </div>
+                  </div>
+                  <div class="Slide">
+                    <div class="SlideContainer">
+                      <img src="images/NoneImage.svg" class="Slide-Img">
+                    </div>
+                  </div>
+                  <div class="Slide">
+                    <div class="SlideContainer">
+                      <img src="images/NoneImage.svg" class="Slide-Img">
+                    </div>
+                  </div>
+                  <div class="Slide">
+                    <div class="SlideContainer">
+                      <img src="images/NoneImage.svg" class="Slide-Img">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="MobileSliderNavigation">
+              <div class="ButtonPrevious" id="MButtonPrevious"><img src="images/SliderArrowLeft.svg"></div>
+              <div class="Points__nav">
+                <div class="NavButton" id="MButton1"></div>
+                <div class="NavButton" id="MButton2"></div>
+                <div class="NavButton" id="MButton3"></div>
+                <div class="NavButton" id="MButton4"></div>
+                <div class="NavButton" id="MButton5"></div>
+                <div class="NavButton" id="MButton6"></div>
+              </div>
+              <div class="ButtonNext" id="MButtonNext"><img src="images/SliderArrowRight.svg"></div>
+            </div>
+          </div>
+        </div>
+      
+      <div class="lastHeader">
+        <a name="LastHeader"></a>
+        <div class="FillBackground"></div>
+        <div class="imgBackground"></div>
+        <div class="FillBackground"></div>
+      </div>
+
+      <div class="footer">
+        <div class="footerMobileConteiner">
+          <div class="footerHeaders">
+            <a href="#FirstHeader">Say hello to</a>
+            <a href="#SecondHeader">Real benefit</a>
+            <a href="#ThirdHeader">Our customers</a>
+            <a href="#LastHeaderBottom">Join us!</a>
+          </div>
+          <img id="IncSign" src="images/MadeInUK.svg">
+          <div class="InstFollow"><a href=""><img id="InstagrammImage" src="images/InstImg.svg"></a>
+            <a href="">@my.gummies</a>
+          </div>
+          <img src="images/BottomLogoMobile.svg">
+        </div>
+
+        <div class="DesktopFooter">
+          <img src="images/BottomLogo.svg">
+        <div class="centerInc">
+          <div class="footerHeaders">
+            <a href="#FirstHeader">Say hello to</a>
+            <a href="#SecondHeader">Real benefit</a>
+            <a href="#ThirdHeader">Our customers</a>
+            <a href="#LastHeaderBottom">Join us!</a>
+          </div>
+          <div class="InstFollow"><a href=""><img id="InstagrammImage" src="images/InstImg.svg"></a>
+          <a href="">@my.gummies</a></div>
+        </div>
+        <img id="IncSign" src="images/MadeInUK.svg">
+        </div>
+        
+      </div>
+
+      <div class="JoinUsBottom">
+        <div class="contentConteiner">
+          <a href=""><img src="images/Lemon.svg" style="width: 4.1vw; height: 2.8vw;"></a>
+          <img src="images/ArrowLeft.svg" style="width: 5.7vw; height: 5.7vw;">
+          Join us!
+          <img src="images/ArrowRight.svg" style="width: 5.7vw; height: 5.7vw;">
+          <a href=""><img src="images/Apple.svg" style="width: 3.2vw; height: 2.8vw;"></a>
+        </div>
+      </div>
+
+      <div class="JoinUsMobile">
+        <div class="JoinUsContainer">
+          <div class="BottomText">Join us!</div> 
+          <div class="BottomFollow">
+            <a href=""><img src="images/Lemon.svg" style="width: 30.8vw; height: 20.9vw;"></a>
+            <a href=""><img src="images/Apple.svg" style="width: 21.6vw; height: 19vw;"></a>
+          </div>
+        </div>
       </div>
     </div>
+
+    
+
+
+
+
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/main.js"></script>
   </body>

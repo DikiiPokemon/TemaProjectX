@@ -1,73 +1,11 @@
-#Slider {
-    position: absolute;
-    width: 1122px;
-    height: 501px;
-    top: 286.05px;
-    left: 389px;
-   
-}
-
-#ViewArea{
-    width: 100%;
-    height: 501px;
-    position: relative;
-    overflow: hidden;
-    justify-content: center;
-    
-    
-}
-
-#SlideWrapper{
-    position: relative;
-    display: flex;
-    justify-content: start;
-    flex-wrap: nowrap;
-    width: calc(100%*4);
-    float: left;
-    -webkit-transition: 1s;
-    -o-transition: 1s;
-    transition: 1s;
-    -webkit-transition-timing-function: ease-in-out;
-    -o-transition-timing-function: ease-in-out;
-    transition-timing-function: ease-in-out;
-
-}
-
-.Slide{
-   
-    width: 1122px;
-    height: 501px;
-    float: left;
-    position: relative;
-    display: flex;
-    justify-content: start;
-    flex-wrap: nowrap;
-    
-}
-
-.SlideContainer{
-    padding: 23px;
-   
-    width: 501px;
-    height: 501px;
-    margin-right: 120px;
-    border: 3px dashed #FFFFFF;
-    border-radius: 61px;
-}
-
-.Slide-Img {
-    z-index: 0;
-    border-radius: 61px;
-}
-
 .Navigation {
-    position: absolute;
-    width: 100%;
-    bottom: 80px;
+    display: flex;
+    width: 83.3vw;
+    height: 4.5vw;
     padding: 0;
     margin: 0;
-    text-align: center;
-    justify-items: center;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .NavButton {
@@ -86,43 +24,150 @@
     cursor: pointer;
 }
 
-#ButtonPrevious{
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    top: 496.55px;
-    left: 159px;
-    background:  #D12A32;
-    border-radius: 50%;
-    text-align: center;
-    box-shadow: 0px 23px 9px rgba(255, 0, 13, 0.02), 0px 13px 8px rgba(255, 0, 13, 0.08), 0px 6px 6px rgba(255, 0, 13, 0.13), 0px 1px 3px rgba(255, 0, 13, 0.15), 0px 0px 0px rgba(255, 0, 13, 0.15);
-
+.SliderContainer{
+    width: 83.3vw;
+    height: 26.4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#ButtonNext{
-    position: absolute;
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    top: 496.55px;
-    right: 159px;
-    z-index: 9;
-    background:  #D12A32;
-    text-align: center;
+.ButtonPrevious{
+    padding-left: 0.7vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 4.2vw;
+    height: 4.2vw;
+    background: #D12A32;
     box-shadow: 0px 23px 9px rgba(255, 0, 13, 0.02), 0px 13px 8px rgba(255, 0, 13, 0.08), 0px 6px 6px rgba(255, 0, 13, 0.13), 0px 1px 3px rgba(255, 0, 13, 0.15), 0px 0px 0px rgba(255, 0, 13, 0.15);
+    border-radius: 50%;
 }
 
+.ButtonNext{
+    padding-right: 0.7vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 4.2vw;
+    height: 4.2vw;
+    background: #D12A32;
+    box-shadow: 0px 23px 9px rgba(255, 0, 13, 0.02), 0px 13px 8px rgba(255, 0, 13, 0.08), 0px 6px 6px rgba(255, 0, 13, 0.13), 0px 1px 3px rgba(255, 0, 13, 0.15), 0px 0px 0px rgba(255, 0, 13, 0.15);
+    border-radius: 50%;
+}
 
-
-#ButtonPrevious, #ButtonNext:hover{
+.ButtonNext:hover{
     cursor: pointer;
 }
 
-#ButtonPrevious img{
-    margin-right: 13px;
-    margin-top: 17px;
+.ButtonPrevious:hover{
+    cursor: pointer;
 }
-#ButtonNext img{
-    margin-left: 13px;
-    margin-top: 17px;
+
+.ButtonPrevious img{
+    position: absolute;
+    width: 2.4vw;
+    height: 2.4vw;
+}
+
+.ButtonNext img{
+    position: absolute;
+    width: 2.4vw;
+    height: 2.4vw;
+}
+
+.ViewArea{
+    width: 59.1vw;
+    height: 26.4vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.NavButton {
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    width: 1.4vw;
+    height: 1.4vw;
+    border: 2px solid #FFFFFF;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 2.6vw;
+    transition: 0.5s;
+}
+
+.NavButton:hover {
+    cursor: pointer;
+}
+
+.Slide{
+   
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    
+}
+
+.SlideContainer{
+    padding: 1.2vw;
+    width: 26.4vw;
+    height: 100%;
+    border: 3px dashed #FFFFFF;
+    border-radius: 3.2vw;
+}
+
+.Slide-Img {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 2.1vw;
+}
+
+.SlideWrapper{
+    position: relative;
+    display: flex;
+    justify-content: start;
+    flex-wrap: nowrap;
+    width: calc(100%*3);
+    height: 100%;
+    float: left;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+
+.MobileSliderConteiner{
+    display: none;
+    margin-top: 6.3vw;
+    width: 100%;
+    height: 87.5vw;
+}
+
+.MobileSliderNavigation{
+    display: none;
+    margin-top: 6.3vw;
+    width: 100vw;
+    height: 12.5vw;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Points__nav{
+    width: 50.6vw;
+    height: 5.3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0, 1.6vw;
 }
