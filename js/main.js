@@ -122,14 +122,14 @@ $(document).ready(function () {
   MobileYesOrNo();
 
   $('.menu-burger__header').click(function(){
-    $('#Mobile').toggleClass('open-menu');
+    $('#Mob').toggleClass('open-menu');
     $('.menu-burger__header').toggleClass('open-menu');
     $('.header__nav').toggleClass('open-menu');
     $('.header').toggleClass('open-menu');
     $('body').toggleClass('fixed-page');
   });
 
-  $('#Desktop').click(function(){
+  $('#Desk').click(function(){
     $('.languagesContainer').toggleClass('open-option');
     $('.Selected').toggleClass('open-option');
     $('.Option').toggleClass('open-option');
@@ -139,7 +139,7 @@ $(document).ready(function () {
     $('.SelectedOption').toggleClass('open-option');
   });
 
-  $('#Mobile').click(function(){
+  $('#Mob').click(function(){
     $('.languagesContainer').toggleClass('open-option');
     $('.Selected').toggleClass('open-option');
     $('.Option').toggleClass('open-option');

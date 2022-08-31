@@ -114,11 +114,11 @@
 		cursor: pointer;
 	}
 
-	#Mobile{
+	#Mob{
 		display: none;
 	}
 
-	#Mobile.open-menu{
+	#Mob.open-menu{
 		display: flex;
 	}
 
