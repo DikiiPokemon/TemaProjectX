@@ -9,7 +9,7 @@
 a:active, /* активная/посещенная ссылка */
 a:hover,  /* при наведении */
 a {
-    color: #242e31;
+    color: #D12A32;
     text-decoration: none;
     font-weight: 600;
    }
@@ -80,7 +80,9 @@ body{
     line-height: 131.52%;
 }
 
-
+.navigation a:hover{
+    color: #D12A32;
+}
 
 .buttonBlock{
     display: flex;
@@ -525,6 +527,10 @@ body{
     color: #FFCACA;
 }
 
+.footerHeaders a:hover{
+    color: #FFC400;
+}
+
 .InstFollow{
     width: 9.3vw;
     height: 1.7vw;
@@ -548,6 +554,10 @@ body{
 .InstFollow a{
     text-decoration: none;
     color: #FFFFFF;
+}
+
+.InstFollow a:hover{
+    color: #FFC400;
 }
 
 .JoinUsBottom{
