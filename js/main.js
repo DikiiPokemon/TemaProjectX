@@ -137,6 +137,7 @@ $(document).ready(function () {
     $('.Options').toggleClass('open-option');
     $('.changeLang').toggleClass('open-option');
     $('.SelectedOption').toggleClass('open-option');
+    $('.buttonBlock').toggleClass('open-option');
   });
 
   $('#Mob').click(function(){

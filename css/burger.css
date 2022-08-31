@@ -58,6 +58,17 @@
 	height: 106vw;
 	padding: 0;	
 }
+
+.menu__item:hover,
+.menu__item::before,
+.menu__item::after{
+	text-decoration: none;
+	color: #D12A32;
+}
+
+.menu__item:active{
+	color: #D12A32;
+}
 @media(max-device-width: 767px){
 
     .hiddenDiv{
@@ -164,8 +175,8 @@
 	}
 .menu-burger__header {
 	position: relative;
-	background-image: url(../images/Burger.svg);
-	background-size: cover;
+	border: 1px solid #090E34;
+	border-radius: 9.7vw;
 	background-position: center; 
     width: 9.4vw;
 	height: 9.4vw;

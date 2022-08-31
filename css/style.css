@@ -107,7 +107,6 @@ body{
     line-height: 17px;  
     border: 1px solid #090E34;
     border-radius: 36px;
-    transition: 1s;
 }
 
 .languagesContainer:hover{
@@ -115,7 +114,6 @@ body{
 }
 
 .changeLang{
-    transition: 1s;
     width: 0.32vw;
     height: 0.53vw;
 }
@@ -659,7 +657,6 @@ body{
     align-content: center;
     width: 3.2vw;
     height: 3.2vw;
-    transition: 1s; 
     border: 1px solid #090E34;
     border-radius: 0.8vw;
      
@@ -677,7 +674,6 @@ body{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    transition: 1s;
 }
 
 .Option.open-option{
@@ -694,7 +690,7 @@ body{
     font-size: 0.7vw;
     line-height: 0.9vw;
     color: #090E34;
-    transition: 1s;
+
 }
 
 .changeLang.open-option{
@@ -709,7 +705,6 @@ body{
     align-items: center;
     width: 3.2vw;
     height: 1.5vw;
-    transition: 1s;
     border-bottom: 1px solid #090E34;
     float: left;
     text-decoration: none;
@@ -734,4 +729,9 @@ body{
 
 #WhiteCustomers{
     color: #FFFFFF;
+}
+
+.buttonBlock.open-option{
+    justify-content: flex-end;
+    padding-bottom: 0.11vw;
 }
