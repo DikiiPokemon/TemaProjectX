@@ -37,6 +37,7 @@
 }
 
 .AppleInfo li{
+    display: flex;
     list-style: none; /* Убираем исходные маркеры */
     background: url(../images/LiMark.svg) no-repeat; /* Параметры фона */
     background-size: 0.9vw 1.8vw;
@@ -47,7 +48,8 @@
     font-size: 1.1vw;
     line-height: 174.02%;
     color: #FFFFFF;
-    float: left;
+    width: 27.4vw;
+    justify-content: flex-start;
 
 }
 
@@ -68,6 +70,7 @@
 }
 
 .VitaminInfo li{
+    display: flex;
     list-style: none; /* Убираем исходные маркеры */
     background: url(../images/LiMark.svg) no-repeat; /* Параметры фона */
     background-size: 0.9vw 1.8vw;
@@ -78,12 +81,15 @@
     font-size: 1.1vw;
     line-height: 174.02%;
     color: #FFFFFF;
-    float: left;
+    width: 27.4vw;
+    justify-content: flex-start;
 
 }
 
 .VitaminInfo ul{
     padding: 0;
+    width: 27.4vw;
+    height: 14.7vw;
 }
 
 .VUnderLine{

@@ -40,6 +40,7 @@ body{
     position: absolute;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     height: 100%;
     width: 100%;
 }
@@ -58,23 +59,20 @@ body{
     justify-content: center;
     right: 0;
     top: 0;
-    height: 100%;
-    width: 100%;
-    padding: 0 2.6vw;
+    width: 37.5vw;
+    height: 5.3vw;
 }
 
 .navigation{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    width: 1272,74px;
-    margin: 0 2.6vw;
+    justify-content: space-around;
+    width: 66.99vw;
 }
 .navigation a{
     text-decoration: none;
     color: #090E34;
-    margin-right: 50px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -484,7 +482,9 @@ body{
     height: 11.5vw;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    background-image: url(../images/FooterBackground.svg);
+    background-size: contain;
 }
 
 .footer img{
@@ -706,4 +706,8 @@ body{
     transform: rotate(180deg);
     width: 0.32vw;
     height: 0.53vw;
+}
+
+#WhiteCustomers{
+    color: #FFFFFF;
 }
