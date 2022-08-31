@@ -1,0 +1,123 @@
+.buttonContainerRu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    width: 51.52vw;
+    height: 100%;
+}
+
+.navigationRu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 46.3vw;
+}
+
+.navigationRu a{
+    text-decoration: none;
+    color: #090E34;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 131.52%;
+}
+
+.navigationRu a:hover{
+    color: #D12A32;
+}
+
+.contentConteinerUpRu{
+    width: 37.98vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.FooterPromoConteinerRu{
+    width: 58.8vw;
+    height: 7.3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.footerPromoContentRu{
+    width: 11.2vw;
+    height: 7.3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerPromoTextRu{
+    width: 11.2vw;
+    height: 1.5vw;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3vw;
+    line-height: 1.5vw;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.TextRu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.2vw;
+    line-height: 131.52%;
+    color: #090E34;
+}
+
+.TextRu img{
+    width: 29.6vw;
+    height: 2.1vw;
+}
+
+.centerIncRu{
+    width: 46.8vw;
+    height: 4.8vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footerHeadersRu{
+    width: 46.8vw;
+    height: 1.4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1vw;
+    line-height: 131.52%;
+}
+
+.footerHeadersRu a{
+    text-decoration: none;
+    color: #FFCACA;
+}
+
+.footerHeadersRu a:hover{
+    color: #FFC400;
+}
+

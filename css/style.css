@@ -68,7 +68,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    width: 66.99vw;
+    width: 32.2vw;
 }
 .navigation a{
     text-decoration: none;
@@ -301,6 +301,7 @@ body{
     font-weight: 700;
     font-size: 3.2vw;
     line-height: 131.52%;
+    color: #090E34;
 }
 
 .firstContent{
@@ -412,12 +413,12 @@ body{
 
 #SPink{
     background-image: url(../images/PStars.svg);
-    background-size: contain;
+    background-size: 100% 100%;
 }
 
 #SYellow{
     background-image: url(../images/YStars.svg);
-    background-size: contain;
+    background-size: 100% 100%;
 }
 
 .Text{
@@ -431,6 +432,7 @@ body{
     font-weight: 700;
     font-size: 3.2vw;
     line-height: 131.52%;
+    color: #090E34;
 }
 
 .Text img{
@@ -593,8 +595,8 @@ body{
     display: none;
     justify-content: center;
     align-items: center;
-   background-image: url(../images/ArrowsMobile.svg);
-   background-size: contain;
+    background-image: url(../images/ArrowsMobile.svg);
+    background-size: contain;
 }
 
 .JoinUsContainer{
@@ -645,7 +647,15 @@ body{
 }
 
 .Selected{
+    width: 1.1vw;
+    height: 0.9vw;
     margin: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.7vw;
+    line-height: 0.9vw;
+    color: #090E34;
 }
 
 .languagesContainer.open-option{
@@ -699,7 +709,6 @@ body{
 
 .SelectedOption.open-option{
     display: flex; 
-    padding-top: 0.3vw;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -714,7 +723,6 @@ body{
     font-size: 0.7vw;
     line-height: 0.9vw;
     color: #090E34;
-    
 }
 
 .SelectedOption{

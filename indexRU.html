@@ -6,6 +6,7 @@
     <meta name="description" content="Магазин по продаже одноразовой посуды в Омске">
     <link rel="shortcut icon" href="images\icon.svg">
     <link href="css\style.css" rel="stylesheet" type="text/css" />
+    <link href="css\styleRu.css" rel="stylesheet" type="text/css" />
     <link href="css\animation.css" rel="stylesheet" type="text/css" />
     <link href="css\Slider.css" rel="stylesheet" type="text/css" />
     <link href="css\burger.css" rel="stylesheet" type="text/css" />
@@ -17,16 +18,16 @@
     <div class="header">
       <div class="blockCenter">
         <div class="logo"></div>
-        <div class="buttonContainer">
-          <div class="navigation">
+        <div class="buttonContainerRu">
+          <div class="navigationRu">
             <a href="#FirstHeader">Давай познакомимся</a>
-            <a href="#SecondHeader">Приносим реальную пользу</a>
+            <a href="#SecondHeader">Реальная польза</a>
             <a href="#ThirdHeader">Нас выбирают</a>
             <a href="#LastHeader">Присоединяйся!</a>
           </div>
         </div>
         <div class="buttonBlock">
-          <div id="Desk" class="languagesContainer"><p class="Selected">Ru</p>
+          <div id="Desk" class="languagesContainer"><div class="Selected">Ru</div>
             <div class="Options">
               <div class="SelectedOption">
                 Ru
@@ -44,7 +45,7 @@
         <div class="menu-burger__header">
         <span></span>
         </div>
-        <div id="Mob" class="languagesContainer"><p class="Selected">Ru</p>
+        <div id="Mob" class="languagesContainer"><div class="Selected">Ru</div>
           <div class="Options">
             <div class="SelectedOption">
               Ru
@@ -60,12 +61,12 @@
     </div>
 
     <div class="JoinUs">
-      <div class="contentConteiner">
-        <a href=""><img src="images/Lemon.svg" style="width: 4.1vw; height: 2.8vw;"></a>
-        <img src="images/ArrowLeft.svg" style="width: 5.7vw; height: 5.7vw;">
+      <div class="contentConteinerUpRu">
+        <a href=""><img id="LemonJ" src="images/Lemon.svg"></a>
+        <img id="ArrowJ" src="images/ArrowLeft.svg">
         Присоединяйся!
-        <img src="images/ArrowRight.svg" style="width: 5.7vw; height: 5.7vw;">
-        <a href=""><img src="images/Apple.svg" style="width: 3.2vw; height: 2.8vw;"></a>
+        <img id="ArrowJ" src="images/ArrowRight.svg">
+        <a href=""><img id="AppleJ" src="images/Apple.svg"></a>
       </div>
     </div>
 
@@ -75,7 +76,7 @@
       <nav class="header__nav">
         <div class="menu header__menu">
           <div class="Nav__point"><a href="#FirstHeader" class="menu__item">Давай познакомимся</a></div>
-          <div class="Nav__point"><a href="#SecondHeader" class="menu__item">Приносим реальную пользу</a></div>
+          <div class="Nav__point"><a href="#SecondHeader" class="menu__item">Реальная польза</a></div>
           <div class="Nav__point"><a href="#ThirdHeader" class="menu__item">Нас выбирают</a></div>
           <div class="Nav__point" id="LastElem"><a href="#LastHeader"  class="menu__item">Присоединяйся!</a></div>
         </div>
@@ -90,22 +91,22 @@
           
         </div>
         <div class="footerPromo"><a name="FirstHeader"></a>
-          <div class="FooterPromoConteiner">
-            <div class="footerPromoContent">
+          <div class="FooterPromoConteinerRu">
+            <div class="footerPromoContentRu">
               <div class="footerPromoImg"><img src="images/FooterPromo1.svg"></div>
-              <div class="footerPromoText">Без желатина</div>
+              <div class="footerPromoTextRu">Без желатина</div>
             </div>
-            <div class="footerPromoContent">
+            <div class="footerPromoContentRu">
               <div class="footerPromoImg"><img src="images/FooterPromo2.svg"></div>
-              <div class="footerPromoText">Без глютена</div>
+              <div class="footerPromoTextRu">Без глютена</div>
             </div>
-            <div class="footerPromoContent">
+            <div class="footerPromoContentRu">
               <div class="footerPromoImg"><img src="images/FooterPromo3.svg"></div>
-              <div class="footerPromoText">Веганские</div>
+              <div class="footerPromoTextRu">Веганские</div>
             </div>
-            <div class="footerPromoContent">
+            <div class="footerPromoContentRu">
               <div class="footerPromoImg"><img src="images/FooterPromo4.svg"></div>
-              <div class="footerPromoText">Без ГМО</div>
+              <div class="footerPromoTextRu">Без ГМО</div>
             </div>
           </div>
         </div>
@@ -138,11 +139,11 @@
           <div class="VitaminD3">
             <div class="Bottle"><img src="images/YellowBottle.svg"></div>
             <div class="Info">
-              <p>Витамин Д3</p> 
+              <p>Витамин D3</p> 
               <div class="VUnderLine"></div>
               <div class="VitaminInfo">
                 <ul>
-                  <li>Полноценная доза витамина D в одной витаминке</li>
+                  <li>Дневная доза D3 в одной витаминке</li>
                   <li>Двухмесячный запас в одной банке</li>
                   <li>Не содержат сахар</li>
                   <li>Понижает раздражительность</li>
@@ -162,7 +163,7 @@
         
         <div class="secondContainer">
           <div class="Name"><a name="SecondHeader"></a>
-            <div class="Text">Приносим реальную пользу
+            <div class="TextRu">Реальная польза
               <img src="images/BenefitLine.svg">
             </div>
           </div>
@@ -170,7 +171,7 @@
             <div class="FeedBack" id="Pink">
               <div class="FeedBackContainer">
                 <div class="FeedBackText">
-                    Люблю всегда что-то новое, и когда увидела — без раздумий сразу захотела попробовать данные витамины с яблочным уксусом. Также в составе есть фолиевая кислота, которая просто необходима для женского организма. Теперь когда я принимаю данный витамин, у меня пропала необузданная тяга к сладкому, хотя раньше на завтрак обед и ужин я ела шоколад. Если в 20 лет это не так заметно, то поверьте, в 30 — уже все оседает. Очень довольная своей покупкой и это точно не моя последняя баночка;)
+                  Люблю всегда что-то новое, и когда увидела — без раздумий сразу захотела попробовать данные витамины с яблочным уксусом. Также в составе есть фолиевая кислота, которая просто необходима для женского организма. Теперь когда я принимаю данный витамин, у меня пропала необузданная тяга к сладкому, хотя раньше на завтрак обед и ужин я ела шоколад. Если в 20 лет это не так заметно, то поверьте, в 30 — уже все оседает. Очень довольная своей покупкой и это точно не моя последняя баночка;)
                 </div>
                 <div class="FeedBackInfo">
                   <div class="FeedBackName">Надежда П.</div>
@@ -181,7 +182,7 @@
             <div class="FeedBack" id="Yellow">
               <div class="FeedBackContainer">
                 <div class="FeedBackText">
-                    Витамин D является важным витамином, который часто упускается из виду, поскольку люди обычно покупают ОМЕГА и витамины группы B. Но легче столкнуться с дефицитом D. Вкус этих жевательных витаминов великолепен, поэтому принимать их — одно удовольствие! 
+                  Витамин D является важным витамином, который часто упускается из виду, поскольку люди обычно покупают ОМЕГА и витамины группы B. Но легче столкнуться с дефицитом D. Вкус этих жевательных витаминов великолепен, поэтому принимать их — одно удовольствие! 
                 </div>
                 <div class="FeedBackInfo">
                   <div class="FeedBackName">Элина Л.</div>
@@ -203,7 +204,7 @@
             <div class="FeedBack" id="Yellow">
               <div class="FeedBackContainer">
                 <div class="FeedBackText">
-                    Мне очень трудно пить витамин Д в каплях, не нравится вкус, и на Озоне я увидела этот жевательный витамин. Переживала, что мне не понравится, но оказалось, что это просто вкусная лимонная мармеладка, но главное не увлекаться;) Принимаю две недели и заметила ,что настроение стало значительно лучше, сон нормализовался. А ещё заказала яблочный уксусу в таком же формате и того же производителя, буду худеть))
+                  Мне очень трудно пить витамин Д в каплях, не нравится вкус, и на Озоне я увидела этот жевательный витамин. Переживала, что мне не понравится, но оказалось, что это просто вкусная лимонная мармеладка, но главное не увлекаться;) Принимаю две недели и заметила ,что настроение стало значительно лучше, сон нормализовался. А ещё заказала яблочный уксусу в таком же формате и того же производителя, буду худеть))
                 </div>
                 <div class="FeedBackInfo">
                   <div class="FeedBackName">Марина Я.</div>
@@ -220,8 +221,8 @@
           
           <div class="thirdContainer">
             <div class="Name"><a name="ThirdHeader"></a>
-              <div id="WhiteCustomers" class="Text">Нас выбирают
-                <img src="images/BenefitLine.svg">
+              <div id="WhiteCustomers" class="TextRu">Нас выбирают
+                <img src="images/OurCustomersLine.svg">
               </div>
             </div>
            
@@ -328,10 +329,10 @@
         <!--mobile version-->
         <div class="footerMobileConteiner">
           <div class="footerHeaders">
-            <a href="#FirstHeader">Давай познакомимся</a>
-            <a href="#SecondHeader">Приносим реальную пользу</a>
-            <a href="#ThirdHeader">Нас выбирают</a>
-            <a href="#LastHeaderBottom">Присоединяйся!</a>
+            <a href="#FirstHeader">Say hello to</a>
+            <a href="#SecondHeader">Real benefit</a>
+            <a href="#ThirdHeader">Our customers</a>
+            <a href="#LastHeaderBottom">Join us!</a>
           </div>
           <img id="IncSign" src="images/MadeInUK.svg">
           <div class="InstFollow"><a href=""><img id="InstagrammImage" src="images/InstImg.svg"></a>
@@ -342,10 +343,10 @@
         <!--desktop version-->
         <div class="DesktopFooter">
           
-          <div class="centerInc">
-            <div class="footerHeaders">
+          <div class="centerIncRu">
+            <div class="footerHeadersRu">
               <a href="#FirstHeader">Давай познакомимся</a>
-              <a href="#SecondHeader">Приносим реальную пользу</a>
+              <a href="#SecondHeader">Реальная польза</a>
               <a href="#ThirdHeader">Нас выбирают</a>
               <a href="#LastHeaderBottom">Присоединяйся!</a>
             </div>
@@ -362,7 +363,7 @@
         <div class="contentConteiner">
           <a href=""><img src="images/Lemon.svg" style="width: 4.1vw; height: 2.8vw;"></a>
           <img src="images/ArrowLeft.svg" style="width: 5.7vw; height: 5.7vw;">
-          Присоединяйся!
+          Join us!
           <img src="images/ArrowRight.svg" style="width: 5.7vw; height: 5.7vw;">
           <a href=""><img src="images/Apple.svg" style="width: 3.2vw; height: 2.8vw;"></a>
         </div>
@@ -370,7 +371,7 @@
       <!--Mobile version of bottom follow-->
       <div class="JoinUsMobile">
         <div class="JoinUsContainer">
-          <div class="BottomText">Присоединяйся!</div> 
+          <div class="BottomText">Join us!</div> 
           <div class="BottomFollow">
             <a href=""><img src="images/Lemon.svg" style="width: 30.8vw; height: 20.9vw;"></a>
             <a href=""><img src="images/Apple.svg" style="width: 21.6vw; height: 19vw;"></a>

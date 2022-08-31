@@ -1,6 +1,13 @@
 
 @media screen and (max-device-width: 767px){
 
+.Selected{
+    width: 6.3vw;
+    height: 5.3vw;
+    font-size: 4.4vw;
+    line-height: 5.3vw;
+}
+
 .buttonContainer{
     display: none;
 }
@@ -134,7 +141,7 @@
     padding-left: 6vw;
     font-size: 3.9vw;
     background-size: 3.3vw 6.2vw;
-    width: 87.2vw;
+    width: 97vw;
 }
 
 .VitaminInfo{
@@ -528,7 +535,6 @@
    }
 
    .SelectedOption.open-option{
-    padding-top: 6px;
     width: 60px;
     height: 28.5px;
     font-size: 14px;
@@ -595,4 +601,32 @@
     width: 32px;
     height: 32px;   
    }
+
+   .buttonContainerRu{
+    width: 979px;
+    height: 100%;
+   }
+
+   .navigationRu{
+    width: 879px;
+   }
+
+   .navigationRu a{
+    font-size: 20px;
+   }
+
+   .contentConteinerUpRu{
+    width: 721.55px;
+    }
+
+    .centerIncRu{
+        width: 890px;
+        height: 91px;
+    }
+
+    .footerHeadersRu{
+        width: 890px;
+        height: 26px;   
+        font-size: 20px;
+    }
 }
