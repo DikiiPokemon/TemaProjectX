@@ -122,19 +122,11 @@ $(document).ready(function () {
   MobileYesOrNo();
 
   $('.menu-burger__header').click(function(){
+    $('#Mobile').toggleClass('open-menu');
     $('.menu-burger__header').toggleClass('open-menu');
     $('.header__nav').toggleClass('open-menu');
     $('.header').toggleClass('open-menu');
     $('body').toggleClass('fixed-page');
-  });
-
-  $('#Mobile').click(function(){
-    $('.languagesContainer').toggleClass('open-option');
-    $('.Selected').toggleClass('open-option');
-    $('.Option').toggleClass('open-option');
-    $('#Selected').toggleClass('open-option');
-    $('.Options').toggleClass('open-option');
-    $('.changeLang').toggleClass('open-option');
   });
 
   $('#Desktop').click(function(){
@@ -146,6 +138,17 @@ $(document).ready(function () {
     $('.changeLang').toggleClass('open-option');
     $('#SelectedOption').toggleClass('open-option');
   });
+
+  $('#Mobile').click(function(){
+    $('.languagesContainer').toggleClass('open-option');
+    $('.Selected').toggleClass('open-option');
+    $('.Option').toggleClass('open-option');
+    $('#Selected').toggleClass('open-option');
+    $('.Options').toggleClass('open-option');
+    $('.changeLang').toggleClass('open-option');
+    $('.SelectedOption').toggleClass('open-option');
+  });
+
 
   if(scrollingBool ){
     $(window).scroll(function(){

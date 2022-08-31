@@ -20,14 +20,20 @@
 }
 .header__menu {
     display: flex;
+	width: 81vw;
+	height: 105.9vw;
+
 	position: relative;
 	z-index: 2;
 }
-.header__menu li {
+.Nav__point{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: center;
 	list-style: none;
-	margin: 0px 0px 0px 36px;
-	width: 53.8vw;
-	height: 12.2vw;	
+	width: 81vw;
+	height: 19.1vw;	
 	font-size: 5vw;
 	text-decoration: none;
 	font-family: 'Montserrat';
@@ -43,9 +49,14 @@
 	color: #090E34;
 }
 
-.header__nav ul{
-	width: 70%;
-	height: 106vw;	
+#LastElem{
+	border-bottom: none;
+}
+
+.header__nav {
+	width: 81vw;
+	height: 106vw;
+	padding: 0;	
 }
 @media(max-device-width: 767px){
 
@@ -102,10 +113,13 @@
 	.languagesContainer:hover{
 		cursor: pointer;
 	}
-	
-	#changeLang{
-		width: 1.9vw;
-		height: 3.1vw;
+
+	#Mobile{
+		display: none;
+	}
+
+	#Mobile.open-menu{
+		display: flex;
 	}
 
 .header__nav {
@@ -116,16 +130,20 @@
     background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(40px);
     width: 100%;
-	height: 157.5vw;
+	height: 143vw;
     transition:0.4s;
 	top:0;
 }
 .header__menu {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
 }
 .header__nav.open-menu{
-	padding: 15vw, 9.4vw;
+	padding: 15vw 9.4vw;
+	margin-top: 26.6vw;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -141,8 +159,8 @@
 
 .header__menu li {
 	justify-items: center;
-	margin: 40px 0px 40px 33px;
-    font-size: 4.4vw;
+    font-size: 9.4vw;
+	text-align: center;
 	}
 .menu-burger__header {
 	position: relative;

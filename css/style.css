@@ -627,6 +627,7 @@ body{
 }
 
 .languagesContainer.open-option{
+    z-index: 30;
     padding: 0;
     flex-direction: row;
     justify-content: center;
@@ -672,26 +673,11 @@ body{
     transition: 1s;
 }
 
-#Selected.open-option p{
-    padding-top: 0.3vw;
-    transition: 1s;
-    margin: 0;
-    display: block;
-    float: left;
-    text-decoration: none;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 0.7vw;
-    line-height: 0.9vw;
-    color: #090E34;
-}
-
 .changeLang.open-option{
    display:none;
 }
 
-#SelectedOption.open-option{
+.SelectedOption.open-option{
     display: flex; 
     padding-top: 0.3vw;
     flex-direction: row;
@@ -712,11 +698,12 @@ body{
     
 }
 
-#SelectedOption{
+.SelectedOption{
     display: none;
 }
 
 .ArrowDown{
+    transform: rotate(180deg);
     width: 0.32vw;
     height: 0.53vw;
 }

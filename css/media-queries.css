@@ -430,19 +430,34 @@
 }
 
 .Options.open-option{
-    margin-right: 3.1vw;
-    width: 6.3vw;
-    height: 14.7vw;
+    width: 18.8vw;
+    height: 18.8vw;
 }
 
 .Option.open-option{
+    padding: 2vw 3.1vw;
+    width: 18.8vw;
+    height: 9.4vw;
     font-size: 4.4vw;
     line-height: 5.3vw;
 }
 
-#Selected.open-option p{
+.SelectedOption.open-option{
+    padding-top: 2vw;
+    width: 18.8vw;
+    height: 9.4vw;
     font-size: 4.4vw;
     line-height: 5.3vw;
+}
+
+.ArrowDown{
+    width: 3.2vw;
+    height: 3.1vw;
+}
+
+.changeLang{
+    width: 3.2vw;
+    height: 3.1vw;
 }
 
 }
