@@ -149,6 +149,30 @@ body{
     justify-content: space-between;
 }
 
+.contentConteinerUp{
+    width: 40vw;
+    height: 5.2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#LemonJ{
+    width: 4.1vw; 
+    height: 2.8vw;
+}
+
+#ArrowJ{
+    width: 5.7vw;
+    height: 5.7vw;
+}
+
+#AppleJ{
+    width: 3.2vw; 
+    height: 2.8vw;
+}
+
 .content-wrapper{
     height: 256.6vw;
     width: 100%;
@@ -486,17 +510,7 @@ body{
     align-items: center;
     justify-content: center;
     background-image: url(../images/FooterBackground.svg);
-    background-size: contain;
-}
-
-.footer img{
-    width: 13.9vw;
-    height: 6.3vw;
-}
-
-#IncSign{
-    width: 6.3vw;
-    height: 6.3vw;
+    background-size: 100% 11.5vw;
 }
 
 .centerInc{

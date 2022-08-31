@@ -464,3 +464,135 @@
 }
 
 }
+
+
+@media screen and (min-device-width: 1920px){
+   .header{
+    height: 100px;
+   }
+
+   .logo{
+    width: 263.63px;
+    height: 100px;
+   }
+
+   .buttonContainer{
+    width: 712px;
+    height: 100px;
+   }
+
+   .navigation{
+    width: 612px;
+   }
+
+   .navigation a{
+    font-size: 20px;
+   }
+
+   .buttonBlock{
+    width: 263.63px;
+    height: 100px;
+    padding-right: 50px;
+   }
+
+   .languagesContainer{
+    width: 60px;
+    height: 30px;
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: 17px; 
+    border-radius: 36px; 
+   }
+
+   .changeLang{
+    width: 6px;
+    height: 10px;
+   }
+
+   .languagesContainer.open-option{
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+   }
+
+   .Options.open-option{
+    width: 60px;
+    height: 60px;
+   }
+
+   .Option.open-option{
+    width: 36px;
+    height: 19px;
+    font-size: 14px;
+    line-height: 17px;
+   }
+
+   .SelectedOption.open-option{
+    padding-top: 6px;
+    width: 60px;
+    height: 28.5px;
+    font-size: 14px;
+    line-height: 17px;
+   }
+
+   .ArrowDown{
+    width: 6px;
+    height: 10px;
+   }
+
+   .JoinUs{
+    height: 99px;
+    font-size: 33.5846px;
+   }
+
+   .contentConteinerUp{
+    width: 559.27px;
+    height: 99.46px;
+   }
+
+   #LemonJ{
+    width: 65.49px;
+    height: 44.5px;
+   }
+
+   #ArrowJ{
+    width: 108px;
+    height: 108px;
+   }
+
+   #AppleJ{
+    width: 49.48px;
+    height: 44.5px;
+   }
+
+   .footer{
+    height: 219px;
+   }
+
+   .DesktopFooter{
+    height: 219px;
+    background-size: 100% 219px;
+   }
+
+   .centerInc{
+    width: 623px;
+    height: 91px;
+   }
+
+   .footerHeaders{
+    width: 623px;
+    height: 26px;   
+    font-size: 20px;
+   }
+
+   .InstFollow{
+    width: 177px;
+    height: 32px;
+    font-size: 16px;
+   }
+
+   .InstFollow img{
+    width: 32px;
+    height: 32px;   
+   }
+}
