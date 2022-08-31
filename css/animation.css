@@ -31,10 +31,68 @@
     text-align: center;
 }
 
-.Info img{
+.AppleInfo{
     width: 27.4vw;
     height: 14.7vw;
 }
+
+.AppleInfo li{
+    list-style: none; /* Убираем исходные маркеры */
+    background: url(../images/LiMark.svg) no-repeat; /* Параметры фона */
+    background-size: 0.9vw 1.8vw;
+    padding-left: 1.5vw; /* Смещаем текст вправо */ 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1vw;
+    line-height: 174.02%;
+    color: #FFFFFF;
+    float: left;
+
+}
+
+.AppleInfo ul{
+    padding: 0;
+}
+
+.AUnderLine{
+    margin: 0.7vw 0 1.1vw 0;
+    width: 25.6vw;
+    height: 0.11vw;
+    background: #FFFFFF;
+}
+
+.VitaminInfo{
+    width: 27.4vw;
+    height: 14.7vw;
+}
+
+.VitaminInfo li{
+    list-style: none; /* Убираем исходные маркеры */
+    background: url(../images/LiMark.svg) no-repeat; /* Параметры фона */
+    background-size: 0.9vw 1.8vw;
+    padding-left: 1.5vw; /* Смещаем текст вправо */ 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1vw;
+    line-height: 174.02%;
+    color: #FFFFFF;
+    float: left;
+
+}
+
+.VitaminInfo ul{
+    padding: 0;
+}
+
+.VUnderLine{
+    margin: 0.7vw 0 1.1vw 0;
+    width: 14.1vw;
+    height: 0.11vw;
+    background: #FFFFFF;
+}
+
 
 .Info p{
     text-align: left;
@@ -42,10 +100,6 @@
     height: 3.2vw;
     margin: 0;
     bottom: 0.7vw;
-}
-#UnderLine{
-    width: 14.1vw;
-    height: 0.11vw;
 }
 
 

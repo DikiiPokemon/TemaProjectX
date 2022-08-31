@@ -128,6 +128,25 @@ $(document).ready(function () {
     $('body').toggleClass('fixed-page');
   });
 
+  $('#Mobile').click(function(){
+    $('.languagesContainer').toggleClass('open-option');
+    $('.Selected').toggleClass('open-option');
+    $('.Option').toggleClass('open-option');
+    $('#Selected').toggleClass('open-option');
+    $('.Options').toggleClass('open-option');
+    $('.changeLang').toggleClass('open-option');
+  });
+
+  $('#Desktop').click(function(){
+    $('.languagesContainer').toggleClass('open-option');
+    $('.Selected').toggleClass('open-option');
+    $('.Option').toggleClass('open-option');
+    $('#Selected').toggleClass('open-option');
+    $('.Options').toggleClass('open-option');
+    $('.changeLang').toggleClass('open-option');
+    $('#SelectedOption').toggleClass('open-option');
+  });
+
   if(scrollingBool ){
     $(window).scroll(function(){
     if ($(window).scrollTop() > 1) { //если страница прокручена

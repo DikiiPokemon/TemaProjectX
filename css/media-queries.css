@@ -58,9 +58,37 @@
     background-image: url(../images/PromoMin.svg);
 }
 
+.footerPromo{
+    height: 22.8vw;
+}
+
+.FooterPromoConteiner{
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.footerPromoContent{
+    width: 20.9vw;
+    height: 15.8vw;
+}
+
+.footerPromoImg{
+    width: 10.1vw;
+    height: 10.1vw;
+}
+
+.footerPromoText{
+    width: 20.9vw;
+    height: 3.4vw;
+    font-size: 2.7vw;
+    line-height: 3.4vw;
+}
+
 .firstHeader{
     width: 100%;
     height: 409.1vw;
+    padding-top: 6vw;
 
 }
 
@@ -89,6 +117,40 @@
 .VitaminD3{
     width: 100%;
     height: 192.2vw;
+}
+
+.AppleInfo{
+    width: 93.5vw;
+    height: 41.3vw;
+}
+
+.AUnderLine{
+    margin: 2.5vw 0 2.8vw 0;
+    width: 88.3vw;
+    height: 0.4vw;
+}
+
+.AppleInfo li{
+    padding-left: 6vw;
+    font-size: 3.9vw;
+    background-size: 3.3vw 6.2vw;
+}
+
+.VitaminInfo{
+    width: 93.5vw;
+    height: 41.3vw;
+}
+
+.VUnderLine{
+    margin: 2.5vw 0 2.8vw 0;
+    width: 88.3vw;
+    height: 0.4vw;
+}
+
+.VitaminInfo li{
+    background-size: 3.3vw 6.2vw;
+    padding-left: 6vw;
+    font-size: 3.9vw;
 }
 
 .Bottle{
@@ -136,6 +198,7 @@
     top: 125vw;
     opacity: 1;
     font-size: 8.4vw;
+    overflow: hidden;
 }
 
 .Info img{
@@ -144,7 +207,7 @@
 }
 
 .Info p{
-    text-align: left;
+    text-align: center;
     width: 88.4vw;
     height: 10.9vw;
     margin: 0;
@@ -179,13 +242,44 @@
 }
 
 .secondBody{
+    margin-top: 6.3vw;
     flex-direction: column;
     height: 363.4vw;
 }
 
-.secondBody img{
+.FeedBack{
+    display: flex;
     width: 89.4vw;
-    height: 103.4vw;
+    border-radius: 6.6vw;
+    height: fit-content;
+    padding: 6.3vw 4.1vw;
+}
+
+.FeedBackContainer{
+    width: 81.3vw;
+    height: fit-content;
+}
+
+.FeedBackText{
+    width: 81.3vw;
+    font-size: 4.1vw;
+    height: fit-content;
+}
+
+.FeedBackInfo{
+    margin-top: 4.7vw;
+    width: 81.3vw;
+    height: fit-content;
+}
+
+.FeedBackName{
+    font-size: 5vw;
+    height: fit-content;
+}
+
+.Stars{
+    width: 36.2vw;
+    height: 5.8vw;
 }
 
 .thirdHeader{
@@ -195,10 +289,6 @@
 .thirdContainer{
     width: 100%;
     height: 133.5vw;
-}
-
-.FillBackground{
-    display: none;
 }
 
 .lastHeader{
@@ -331,6 +421,28 @@
     padding: 0, 6.25vw;
     width: 100vw;
     height: 100vw;
+}
+
+.languagesContainer.open-option{
+    width: 18.8vw;
+    height: 18.8vw;
+    border-radius: 4.7vw;
+}
+
+.Options.open-option{
+    margin-right: 3.1vw;
+    width: 6.3vw;
+    height: 14.7vw;
+}
+
+.Option.open-option{
+    font-size: 4.4vw;
+    line-height: 5.3vw;
+}
+
+#Selected.open-option p{
+    font-size: 4.4vw;
+    line-height: 5.3vw;
 }
 
 }

@@ -26,7 +26,16 @@
           </div>
         </div>
         <div class="buttonBlock">
-          <div class="languagesContainer">Ru<img id="changeLang" src="images/SwitchLang.svg"></div>
+          <div id="Desktop" class="languagesContainer"><p class="Selected">Ru</p>
+            <div class="Options">
+              <div id="SelectedOption">
+                Ru
+                <img class="ArrowDown" src="images/SwitchLang.svg">
+              </div> 
+              <a class="Option" href="">En</a>
+            </div>
+            <img class="changeLang" src="images/SwitchLang.svg">
+          </div>
         </div>
         
       </div>
@@ -53,9 +62,15 @@
 
     <!-- Content of the Page-->
     <div class="content-wrapper">
-
+      <!--Navigation mobile version here for blur-->
       <nav class="header__nav">
-        <div class="languagesContainer">Ru<img id="changeLang" src="images/SwitchLang.svg"></div>
+        <div id="Mobile" class="languagesContainer"><p class="Selected">Ru</p>
+          <div class="Options">
+            <p id="Selected">Ru</p>
+            <a class="Option" href="">En</a>
+          </div>
+          <img id="changeLang" src="images/SwitchLang.svg">
+        </div>
         <ul class="menu header__menu">
             <li><a href="#FirstHeader" class="menu__item">Say hello to</a></li>
             <li><a href="#SecondHeader" class="menu__item">Real benefit</a></li>
@@ -72,7 +87,26 @@
           <div class="centerPromo"></div>
           
         </div>
-        <div class="footerPromo"><img class="footerPromoImg" src="images/ShortInfo.svg"></div>
+        <div class="footerPromo">
+          <div class="FooterPromoConteiner">
+            <div class="footerPromoContent">
+              <div class="footerPromoImg"><img src="images/FooterPromo1.svg"></div>
+              <div class="footerPromoText">Gelatin-Free</div>
+            </div>
+            <div class="footerPromoContent">
+              <div class="footerPromoImg"><img src="images/FooterPromo2.svg"></div>
+              <div class="footerPromoText">Gluten free</div>
+            </div>
+            <div class="footerPromoContent">
+              <div class="footerPromoImg"><img src="images/FooterPromo3.svg"></div>
+              <div class="footerPromoText">Vegan</div>
+            </div>
+            <div class="footerPromoContent">
+              <div class="footerPromoImg"><img src="images/FooterPromo4.svg"></div>
+              <div class="footerPromoText">Non-GMO</div>
+            </div>
+          </div>
+        </div>
       </div>
       <!--Info about the products-->
       <div class="firstHeader">
@@ -84,16 +118,38 @@
             <div class="Bottle"><img src="images/RedBottle.svg"></div>
             <div class="Info">
               <p>Apple Cider Vinegar</p> 
-              <img id="UnderLine" src="images/UnderLine.svg">
-              <img src="images/BodyText.svg">
+              <div class="AUnderLine"></div>
+              <div class="AppleInfo">
+                <ul>
+                  <li>Двухмесячный запас в одной банке</li>
+                  <li>Содержит в составе витамин B12</li>
+                  <li>Содержит фолиевую кислоту и витамин C</li>
+                  <li>Снижает уровень сахара в крови</li>
+                  <li>Способствует улучшению пищеварения</li>
+                  <li>Способствует снижению веса</li>
+                  <li>Укрепляет иммунитет</li>
+                  <li>Не содержит искусственных красителей</li>
+                </ul>
+              </div>
             </div>
           </div>
           <div class="VitaminD3">
             <div class="Bottle"><img src="images/YellowBottle.svg"></div>
             <div class="Info">
               <p>Vitamin D3</p> 
-              <img id="UnderLine" src="images/UnderLine.svg">
-              <img id="BodyText" src="images/BodyTextYellow.svg"></div>
+              <div class="VUnderLine"></div>
+              <div class="VitaminInfo">
+                <ul>
+                  <li>Дневная доза D3 в одной витаминке</li>
+                  <li>Двухмесячный запас в одной банке</li>
+                  <li>Не содержат сахар</li>
+                  <li>Понижает раздражительность</li>
+                  <li>Способствует улучшению памяти</li>
+                  <li>Укрепляет кости, зубы и мышцы</li>
+                  <li>Способствует улучшению работы сердца</li>
+                  <li>Не содержит искусственных красителей</li>
+                </ul>
+              </div>
           </div>
         </div>
       </div>
@@ -107,10 +163,50 @@
             </div>
           </div>
           <div class="secondBody">
-            <img src="images/Benefit1.svg">
-            <img src="images/Benefit2.svg">
-            <img src="images/Benefit3.svg">
-            <img src="images/Benefit4.svg">
+            <div class="FeedBack" id="Pink">
+              <div class="FeedBackContainer">
+                <div class="FeedBackText">
+                  Люблю всегда что-то новое, и когда увидела — без раздумий сразу захотела попробовать данные витамины с яблочным уксусом. Также в составе есть фолиевая кислота, которая просто необходима для женского организма. Теперь когда я принимаю данный витамин, у меня пропала необузданная тяга к сладкому, хотя раньше на завтрак обед и ужин я ела шоколад. Если в 20 лет это не так заметно, то поверьте, в 30 — уже все оседает. Очень довольная своей покупкой и это точно не моя последняя баночка;)
+                </div>
+                <div class="FeedBackInfo">
+                  <div class="FeedBackName">Надежда П.</div>
+                  <div class="Stars" id="SPink"></div>
+                </div>
+              </div>
+            </div>
+            <div class="FeedBack" id="Yellow">
+              <div class="FeedBackContainer">
+                <div class="FeedBackText">
+                  Витамин D является важным витамином, который часто упускается из виду, поскольку люди обычно покупают ОМЕГА и витамины группы B. Но легче столкнуться с дефицитом D. Вкус этих жевательных витаминов великолепен, поэтому принимать их — одно удовольствие! 
+                </div>
+                <div class="FeedBackInfo">
+                  <div class="FeedBackName">Элина Л.</div>
+                  <div class="Stars" id="SYellow"></div>
+                </div>
+              </div>  
+            </div>
+            <div class="FeedBack" id="Pink">
+              <div class="FeedBackContainer">
+                <div class="FeedBackText">
+                  Отличный вариант для приема яблочного уксуса, и польза его колоссальная. Главное для меня это снижение аппетита и за две недели с этой задачей мармеладки справились на 5+. Яблочный уксус пить не могу, т.к. моя эмаль очень тонкая, а вот мармеладки стали просто спасением. Все отлично упаковано, даже металлическая защитная плёнка имеется.
+                </div>
+                <div class="FeedBackInfo">
+                  <div class="FeedBackName">Марина И.</div>
+                  <div class="Stars" id="SPink"></div>
+                </div>
+              </div>
+            </div>
+            <div class="FeedBack" id="Yellow">
+              <div class="FeedBackContainer">
+                <div class="FeedBackText">
+                  Мне очень трудно пить витамин Д в каплях, не нравится вкус, и на Озоне я увидела этот жевательный витамин. Переживала, что мне не понравится, но оказалось, что это просто вкусная лимонная мармеладка, но главное не увлекаться;) Принимаю две недели и заметила ,что настроение стало значительно лучше, сон нормализовался. А ещё заказала яблочный уксусу в таком же формате и того же производителя, буду худеть))
+                </div>
+                <div class="FeedBackInfo">
+                  <div class="FeedBackName">Марина Я.</div>
+                  <div class="Stars" id="SYellow"></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         </div>
@@ -166,7 +262,7 @@
               <div class="NavButton" id="Button2"></div>
               <div class="NavButton" id="Button3"></div>
             </div>
-
+            <!--Mobile Adoptation Slider-->
             <div class="MobileSliderConteiner">
               <div class="ViewArea">
                 <div class="SlideWrapper" id="Mobile">
@@ -203,7 +299,7 @@
                 </div>
               </div>
             </div>
-
+            <!--Mobile Navigation of slider-->
             <div class="MobileSliderNavigation">
               <div class="ButtonPrevious" id="MButtonPrevious"><img src="images/SliderArrowLeft.svg"></div>
               <div class="Points__nav">
@@ -218,15 +314,14 @@
             </div>
           </div>
         </div>
-      
+        <!--Last content part-->
       <div class="lastHeader">
         <a name="LastHeader"></a>
-        <div class="FillBackground"></div>
         <div class="imgBackground"></div>
-        <div class="FillBackground"></div>
       </div>
-
+      <!--Footer company information-->
       <div class="footer">
+        <!--mobile version-->
         <div class="footerMobileConteiner">
           <div class="footerHeaders">
             <a href="#FirstHeader">Say hello to</a>
@@ -240,24 +335,26 @@
           </div>
           <img src="images/BottomLogoMobile.svg">
         </div>
-
+        <!--desktop version-->
         <div class="DesktopFooter">
-          <img src="images/BottomLogo.svg">
-        <div class="centerInc">
-          <div class="footerHeaders">
-            <a href="#FirstHeader">Say hello to</a>
-            <a href="#SecondHeader">Real benefit</a>
-            <a href="#ThirdHeader">Our customers</a>
-            <a href="#LastHeaderBottom">Join us!</a>
+          <img id="BottomLogo" src="images/BottomLogo.svg">
+          <div class="centerInc">
+            <div class="footerHeaders">
+              <a href="#FirstHeader">Say hello to</a>
+              <a href="#SecondHeader">Real benefit</a>
+              <a href="#ThirdHeader">Our customers</a>
+              <a href="#LastHeaderBottom">Join us!</a>
+            </div>
+          <div class="InstFollow">
+            <a href=""><img id="InstagrammImage" src="images/InstImg.svg"></a>
+            <a href="">@my.gummies</a>
           </div>
-          <div class="InstFollow"><a href=""><img id="InstagrammImage" src="images/InstImg.svg"></a>
-          <a href="">@my.gummies</a></div>
         </div>
         <img id="IncSign" src="images/MadeInUK.svg">
         </div>
         
       </div>
-
+      <!--Bottom follow-->
       <div class="JoinUsBottom">
         <div class="contentConteiner">
           <a href=""><img src="images/Lemon.svg" style="width: 4.1vw; height: 2.8vw;"></a>
@@ -267,7 +364,7 @@
           <a href=""><img src="images/Apple.svg" style="width: 3.2vw; height: 2.8vw;"></a>
         </div>
       </div>
-
+      <!--Mobile version of bottom follow-->
       <div class="JoinUsMobile">
         <div class="JoinUsContainer">
           <div class="BottomText">Join us!</div> 
