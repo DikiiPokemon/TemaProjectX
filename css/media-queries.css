@@ -80,6 +80,24 @@
     height: 15.8vw;
 }
 
+.FooterPromoConteinerRu{
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.footerPromoContentRu{
+    width: 23.8vw;
+    height: 15.8vw;
+}
+
+.footerPromoTextRu{
+    width: 23.8vw;
+    height: 3.4vw;
+    font-size: 2.7vw;
+    line-height: 3.4vw;
+}
+
 .footerPromoImg{
     width: 10.1vw;
     height: 10.1vw;
@@ -246,7 +264,16 @@
     font-size: 9.4vw;
 }
 
+.TextRu{
+    font-size: 9.4vw;
+}
+
 .Text img{
+    width: 67vw;
+    height: 7.4vw;
+}
+
+.TextRu img{
     width: 67vw;
     height: 7.4vw;
 }
