@@ -646,4 +646,56 @@
         height: 26px;
         font-size: 20px;
     }
+
+    .TriggerBut{
+        width: 60px;
+	    height: 30px;
+    }
+
+    .ButtonLang{
+        width: 60px;
+	    height: 30px;
+	    padding: 0 10px;
+	    border-radius: 36px;
+    }
+
+    .ButtonLang.show{
+        height: 60px;
+	    border-radius: 15px;
+    }
+
+    .SelectLang{
+        width: 38px;
+        font-size: 14px;
+	    line-height: 17px;
+        margin: 6.5px 0;
+    }
+
+    .HiddenLangs{
+        width: 58px;
+        height: 30px;
+        font-size: 14px;
+	    line-height: 17px;
+        padding: 6.5px 10px;
+    }
+
+    .HiddenLangs li{
+        font-size: 14px;
+	    line-height: 17px;
+    }
+
+    .HiddenLangs a{
+        font-size: 14px;
+	    line-height: 17px;
+    }
+
+    .SelectLang img{
+        width: 6px;
+        height: 10px;
+    }
+
+    .SelectLang.show img{
+        width: 6px;
+        height: 10px;
+    }
 }
