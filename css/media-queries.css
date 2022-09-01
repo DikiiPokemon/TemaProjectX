@@ -500,45 +500,6 @@
     height: 100vw;
 }
 
-.languagesContainer.open-option{
-    width: 18.8vw;
-    height: 18.8vw;
-    border-radius: 4.7vw;
-}
-
-.Options.open-option{
-    width: 18.8vw;
-    height: 18.8vw;
-}
-
-.Option.open-option{
-    padding: 2vw 3.1vw;
-    width: 18.8vw;
-    height: 9.4vw;
-    font-size: 4.4vw;
-    line-height: 5.3vw;
-}
-
-.SelectedOption.open-option{
-    padding-top: 2vw;
-    width: 18.8vw;
-    height: 9.4vw;
-    font-size: 4.4vw;
-    line-height: 5.3vw;
-}
-
-.ArrowDown{
-    width: 3.2vw;
-    height: 3.1vw;
-}
-
-.changeLang{
-    width: 3.2vw;
-    height: 3.1vw;
-}
-
-
-
 }
 
 
@@ -571,49 +532,16 @@
     padding-right: 50px;
    }
 
-   .languagesContainer{
-    width: 60px;
-    height: 30px;
-    padding: 0 10px;
-    font-size: 14px;
-    line-height: 17px; 
-    border-radius: 36px; 
-   }
 
-   .changeLang{
-    width: 6px;
-    height: 10px;
-   }
 
-   .languagesContainer.open-option{
-    width: 60px;
-    height: 60px;
-    border-radius: 15px;
-   }
 
-   .Options.open-option{
-    width: 60px;
-    height: 60px;
-   }
+ 
 
-   .Option.open-option{
-    width: 36px;
-    height: 19px;
-    font-size: 14px;
-    line-height: 17px;
-   }
+  
 
-   .SelectedOption.open-option{
-    width: 60px;
-    height: 28.5px;
-    font-size: 14px;
-    line-height: 17px;
-   }
+ 
 
-   .ArrowDown{
-    width: 6px;
-    height: 10px;
-   }
+ 
 
    .JoinUs{
     height: 99px;

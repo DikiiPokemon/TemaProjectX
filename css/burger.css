@@ -97,28 +97,7 @@
         z-index: 30;
     }
 	
-	.languagesContainer{
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: space-between;
-		position: absolute;
-		right: 17.2vw;
-		top: 8.6vw;
-		height: 9.4vw;
-		width: 18.8vw;
-		padding: 0 3.1vw;
-		font-weight: 400;
-		font-size: 4.4vw;
-		line-height: 17px;  
-		border: 1px solid #090E34;
-		border-radius: 11.3vw;
-		z-index: 30;
-	}
 	
-	.languagesContainer:hover{
-		cursor: pointer;
-	}
 
 	#Mob{
 		display: none;

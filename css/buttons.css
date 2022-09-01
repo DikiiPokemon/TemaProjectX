@@ -29,3 +29,152 @@
     color: #FFC400;
     cursor: pointer;
 }
+
+.TriggerBut{
+	width: 3.2vw;
+	height: 1.6vw;
+}
+
+.TriggerBut:hover{
+    cursor: pointer;
+}
+
+.ButtonLang{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+	width: 3.2vw;
+	height: 1.6vw;
+	padding: 0 0.5vw;
+	border: 1px solid #090E34;
+	border-radius: 1.9vw;
+}
+.ButtonLang.show{
+	height: 3.2vw;
+	border-radius: 0.8vw;
+}
+
+.SelectLang{
+	width: 2vw;
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 0.7vw;
+	line-height: 0.9vw;
+	color: #090E34;
+	margin: 0.3vw 0;
+}
+
+.HiddenLangs{
+	width: 3.1vw;
+	height: 1.6vw;
+	display: none;
+	align-items: center;
+	justify-content: flex-start;
+	align-content: center;
+	text-decoration: none;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 0.7vw;
+	line-height: 0.9vw;
+	color: #090E34;
+	padding: 0.3vw 0.5vw;
+	border-top: 1px solid #090E34;
+    margin-bottom: 0;
+}
+
+.HiddenLangs.show{
+	display: flex;
+}
+
+.HiddenLangs li{
+	list-style: none;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+    font-size: 0.7vw;
+	line-height: 0.9vw;
+	color: #090E34;
+}
+
+.HiddenLangs a{
+	text-decoration: none;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+    font-size: 0.7vw;
+	line-height: 0.9vw;
+	color: #090E34;
+}
+
+.SelectLang img{
+    width: 0.3vw;
+    height: 0.5vw;
+}
+
+.SelectLang.show img{
+    transform: rotate(180deg);
+}
+
+@media screen and (max-device-width: 767px){
+
+    .TriggerBut{
+        width: 18.8vw;
+	    height: 9.4vw;
+        margin-right: 17.1vw;
+    }
+
+    .ButtonLang{
+        width: 18.8vw;
+	    height: 9.4vw;
+	    padding: 0 3.1vw;
+	    border: 1px solid #090E34;
+	    border-radius: 11.3vw;
+    }
+
+    .ButtonLang.show{
+        height: 18.8vw;
+        border-radius: 4.7vw;
+    }
+
+    .SelectLang{
+        width: 11.9vw;
+        font-size: 4.4vw;
+	    line-height: 5.3vw;
+        margin: 2vw 0;
+    }
+
+    .HiddenLangs{
+        width: 18.1vw;
+	    height: 9.4vw;
+        font-size: 4.4vw;
+	    line-height: 5.3vw;
+        padding: 2vw 3.1vw;
+    }
+
+    .HiddenLangs li{
+        font-size: 4.4vw;
+	    line-height: 5.3vw;
+    }
+
+    .HiddenLangs a{
+        font-size: 4.4vw;
+	    line-height: 5.3vw;
+    }
+
+    .SelectLang img{
+        width: 1.9vw;
+        height: 3.1vw;
+    }
+
+    .SelectLang.show img{
+        width: 1.9vw;
+        height: 3.1vw;
+    }
+}

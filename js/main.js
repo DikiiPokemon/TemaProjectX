@@ -132,24 +132,15 @@ $(document).ready(function () {
   });
 
   $('#Desk').click(function(){
-    $('.languagesContainer').toggleClass('open-option');
-    $('.Selected').toggleClass('open-option');
-    $('.Option').toggleClass('open-option');
-    $('#Selected').toggleClass('open-option');
-    $('.Options').toggleClass('open-option');
-    $('.changeLang').toggleClass('open-option');
-    $('.SelectedOption').toggleClass('open-option');
-    $('.buttonBlock').toggleClass('open-option');
+    $('.HiddenLangs').toggleClass('show');
+    $('.SelectLang').toggleClass('show');
+    $('.ButtonLang').toggleClass('show');
   });
 
   $('#Mob').click(function(){
-    $('.languagesContainer').toggleClass('open-option');
-    $('.Selected').toggleClass('open-option');
-    $('.Option').toggleClass('open-option');
-    $('#Selected').toggleClass('open-option');
-    $('.Options').toggleClass('open-option');
-    $('.changeLang').toggleClass('open-option');
-    $('.SelectedOption').toggleClass('open-option');
+    $('.HiddenLangs').toggleClass('show');
+    $('.SelectLang').toggleClass('show');
+    $('.ButtonLang').toggleClass('show');
   });
 
 
