@@ -191,7 +191,6 @@
 .menu-burger__header span{
 	top: 4.4vw;
 	left: 2.5vw;
-	transition: 0.4s;
 }
 .menu-burger__header:after, .menu-burger__header:before{
 	content: '';

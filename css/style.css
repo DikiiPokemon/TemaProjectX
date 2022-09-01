@@ -705,6 +705,11 @@ body{
     height: 1vw;
     display: block;
     float: left;
+    color: #090E34;
+
+}
+
+.Option.open-option a{
     text-decoration: none;
     font-family: 'Montserrat';
     font-style: normal;
@@ -712,7 +717,6 @@ body{
     font-size: 0.7vw;
     line-height: 0.9vw;
     color: #090E34;
-
 }
 
 .changeLang.open-option{
@@ -755,4 +759,3 @@ body{
     justify-content: flex-end;
     padding-bottom: 0.11vw;
 }
-
