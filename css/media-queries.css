@@ -1,6 +1,11 @@
 
 @media screen and (max-device-width: 767px){
 
+#NavBut{
+        height: 8.1vw;
+        font-size: 6.25vw;
+}
+
 .RedLine{
     height: 1px;
     width: 82.2vw;
@@ -532,10 +537,7 @@
     height: 3.1vw;
 }
 
-.NavBut{
-    height: 8.1vw;
-    font-size: 6.25vw;
-}
+
 
 }
 
@@ -707,7 +709,12 @@
         font-size: 20px;
     }
 
-    .NavBut{
+    #NavBut{
+        height: 26px;
+        font-size: 20px;
+    }
+
+    #NavButUp{
         height: 26px;
         font-size: 20px;
     }

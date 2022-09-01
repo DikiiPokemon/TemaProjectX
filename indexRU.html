@@ -5,6 +5,7 @@
     <meta name="keywords" content="одноразовая посуда, посуда, пластик, стаканы, тарелки, столовые приборы, все для пикника, скотч, креплента, малярная лента, перчатки, бахилы, хозяйственные товары, ветошь, упаковка, фасовка, пакеты, майки, крафт, упаковка для подарков, пленка пищевая, стрейч-пленка, бахилы, шапочки для душа, емкость для расфасовки, контейнера, соусницы, ланч-боксы, судки, лотки">
     <meta name="description" content="Магазин по продаже одноразовой посуды в Омске">
     <link rel="shortcut icon" href="images\icon.svg">
+    <link href="css\buttons.css" rel="stylesheet" type="text/css" />
     <link href="css\style.css" rel="stylesheet" type="text/css" />
     <link href="css\styleRu.css" rel="stylesheet" type="text/css" />
     <link href="css\animation.css" rel="stylesheet" type="text/css" />
@@ -20,10 +21,10 @@
         <div class="logo"></div>
         <div class="buttonContainerRu">
           <div class="navigationRu">
-            <a href="#FirstHeader">Давай познакомимся</a>
-            <a href="#SecondHeader">Реальная польза</a>
-            <a href="#ThirdHeader">Нас выбирают</a>
-            <a href="#LastHeader">Присоединяйся!</a>
+            <div id="NavButUp" class="ButtonHello">Давай познакомимся</div>
+            <div id="NavButUp" class="ButtonBenefit">Реальная польза</div>
+            <div id="NavButUp" class="ButtonCustomers">Нас выбирают</div>
+            <div id="NavButUp" class="ButtonJoinUs">Присоединяйся!</div>
           </div>
         </div>
         <div class="buttonBlock">
@@ -73,12 +74,12 @@
     <!-- Content of the Page-->
     <div id="RussianLocal" class="content-wrapper">
       <!--Navigation mobile version here for blur-->
-      <nav class="header__navRu">
+      <nav id="MenuMob" class="header__navRu">
         <div class="menu header__menuRu">
-          <div class="Nav__pointRu"><div class="menu__item">Давай познакомимся</div><div class="RedLine"></div></div>
-          <div class="Nav__pointRu"><div  class="menu__item">Реальная польза</div><div class="RedLine"></div></div>
-          <div class="Nav__pointRu"><div  class="menu__item">Нас выбирают</div><div class="RedLine"></div></div>
-          <div class="Nav__pointRu" id="LastElem"><div class="menu__item">Присоединяйся!</div></div>
+          <div class="Nav__pointRu"><div id="menu__item" class="ButtonHello">Давай познакомимся</div><div class="RedLine"></div></div>
+          <div class="Nav__pointRu"><div id="menu__item"  class="ButtonBenefit">Реальная польза</div><div class="RedLine"></div></div>
+          <div class="Nav__pointRu"><div id="menu__item"  class="ButtonCustomers">Нас выбирают</div><div class="RedLine"></div></div>
+          <div class="Nav__pointRu"><div id="menu__item" class="ButtonJoinUs">Присоединяйся!</div></div>
         </div>
       </nav>
       <!-- Introdaction of the Site-->
@@ -329,10 +330,10 @@
         <!--mobile version-->
         <div class="footerMobileConteiner">
           <div class="footerHeaders">
-            <div class="NavBut">Давай познакомимся</div>
-            <div class="NavBut">Реальная помощь</div>
-            <div class="NavBut">Нас выбирают</div>
-            <div class="NavBut">Присоединяйся!</div>
+            <div id="NavBut" class="ButtonHello">Давай познакомимся</div>
+            <div id="NavBut" class="ButtonBenefit">Реальная помощь</div>
+            <div id="NavBut" class="ButtonCustomers">Нас выбирают</div>
+            <div id="NavBut" class="ButtonJoinUs">Присоединяйся!</div>
           </div>
           <img id="IncSign" src="images/MadeInUK.svg">
           <div class="InstFollow"><a href=""><img id="InstagrammImage" src="images/InstImg.svg"></a>
@@ -345,10 +346,10 @@
           
           <div class="centerIncRu">
             <div class="footerHeadersRu">
-              <div class="NavBut">Давай познакомимся</div>
-              <div class="NavBut">Реальная помощь</div>
-              <div class="NavBut">Нас выбирают</div>
-              <div class="NavBut">Присоединяйся!</div>
+              <div id="NavBut" class="ButtonHello">Давай познакомимся</div>
+              <div id="NavBut" class="ButtonBenefit">Реальная помощь</div>
+              <div id="NavBut" class="ButtonCustomers">Нас выбирают</div>
+              <div id="NavBut" class="ButtonJoinUs">Присоединяйся!</div>
             </div>
           <div class="InstFollow">
             <a href=""><img id="InstagrammImage" src="images/InstImg.svg"></a>

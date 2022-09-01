@@ -54,14 +54,14 @@
 	border-bottom: none;
 }
 
-.menu__item:hover,
-.menu__item::before,
-.menu__item::after{
+#menu__item:hover,
+#menu__item::before,
+#menu__item::after{
 	text-decoration: none;
 	color: #D12A32;
 }
 
-.menu__item:active{
+#menu__item:active{
 	color: #D12A32;
 }
 @media(max-device-width: 767px){
@@ -235,7 +235,7 @@ header {
     overflow: hidden;
 }
 
-.menu__item{
+#menu__item{
     text-decoration: none;
 	color: #090E34;
 	margin-bottom: 9.4vw;
