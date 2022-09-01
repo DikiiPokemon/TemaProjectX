@@ -127,6 +127,7 @@ $(document).ready(function () {
     $('.header__nav').toggleClass('open-menu');
     $('.header').toggleClass('open-menu');
     $('body').toggleClass('fixed-page');
+    $('.header__navRu').toggleClass('open-menu');
   });
 
   $('#Desk').click(function(){

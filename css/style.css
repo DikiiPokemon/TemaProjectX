@@ -1,10 +1,40 @@
 @font-face {
     font-family:'Montserrat'; 
+    font-style: normal;
   src: local('Montserrat'),
   url(fonts/Montserrat-Regular.ttf) format('ttf'),
   url(fonts/Montserrat-Regular.woff) format('woff'),
-  url(fonts/Montserrat-Regular.woff2) format('woff2'); 
+  url(fonts/Montserrat-Regular.woff2) format('woff2');
+
 }
+
+@font-face {
+    font-family: 'MontserratSemiBold';
+    font-style: normal; 
+    src: local('MontserratSemiBold'),
+    url(fonts/Montserrat-SemiBold.ttf) format('ttf'),
+    url(fonts/Montserrat-SemiBold.woff) format('woff'),
+    url(fonts/Montserrat-SemiBold.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'MontserratMedium';
+    font-style: normal;
+    src: local('MontserratMedium'),
+    url(fonts/Montserrat-Medium.ttf) format('ttf'),
+    url(fonts/Montserrat-Medium.woff) format('woff'),
+    url(fonts/Montserrat-Medium.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'MontserratBold';
+    font-style: normal;
+    src: local('MontserratBold'),
+    url(fonts/Montserrat-Bold.ttf) format('ttf'),
+    url(fonts/Montserrat-Bold.woff) format('woff'),
+    url(fonts/Montserrat-Bold.woff2) format('woff2');
+}
+
 
 a:active, /* активная/посещенная ссылка */
 a:hover,  /* при наведении */
@@ -129,7 +159,7 @@ body{
     justify-content: center;
     border-top: 1px solid #FFDBDD;
     background-color: #FFFFFF;
-    font-family: 'Montserrat';
+    font-family: 'MontserratBold';
     font-style: normal;
     font-weight: 700;
     font-size: 2.1vw;
@@ -255,7 +285,7 @@ body{
 .footerPromoText{
     width: 9.8vw;
     height: 1.5vw;
-    font-family: 'Montserrat';
+    font-family: 'MontserratBold';
     font-style: normal;
     font-weight: 700;
     font-size: 1.3vw;
@@ -270,7 +300,7 @@ body{
     width: 51.1vw;
     height: 4.5vw;
     background: #D12A32;
-    font-family: 'Montserrat';
+    font-family: 'MontserratBold';
     font-style: normal;
     font-weight: 700;
     font-size: 3.4vw;
@@ -296,7 +326,7 @@ body{
 }
 
 .firstHeaderText{
-    font-family: 'Montserrat';
+    font-family: 'MontserratBold';
     font-style: normal;
     font-weight: 700;
     font-size: 3.2vw;
@@ -398,7 +428,7 @@ body{
 }
 
 .FeedBackName{
-    font-family: 'Montserrat';
+    font-family: 'MontserratBold';
     font-style: normal;
     font-weight: 700;
     font-size: 1.2vw;
@@ -427,7 +457,7 @@ body{
     align-items: center;
     flex-direction: column;
 
-    font-family: 'Montserrat';
+    font-family: 'MontserratBold';
     font-style: normal;
     font-weight: 700;
     font-size: 3.2vw;
@@ -445,7 +475,7 @@ body{
     height: 35.6vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;  
 }
 
@@ -528,11 +558,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.1vw;
-    line-height: 131.52%;
+
    
 }
 
@@ -552,7 +578,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    font-family: 'Montserrat';
+    font-family: 'MontserratSemiBold';
     font-style: normal;
     font-weight: 600;
     font-size: 0.8vw;
@@ -582,7 +608,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    font-family: 'Montserrat';
+    font-family: 'MontserratBold';
     font-style: normal;
     font-weight: 700;
     font-size: 2.1vw;
@@ -596,7 +622,7 @@ body{
     justify-content: center;
     align-items: center;
     background-image: url(../images/ArrowsMobile.svg);
-    background-size: contain;
+    background-size: 100% 100%;
 }
 
 .JoinUsContainer{
@@ -610,9 +636,8 @@ body{
 }
 
 .BottomText{
-    width: 37.5vw;
     height: 12.2vw;
-    font-family: 'Montserrat';
+    font-family: 'MontserratBold';
     font-style: normal;
     font-weight: 700;
     font-size: 9.4vw;
@@ -742,4 +767,19 @@ body{
 .buttonBlock.open-option{
     justify-content: flex-end;
     padding-bottom: 0.11vw;
+}
+
+.NavBut{
+    height: 1.4vw;
+    font-family: 'MontserratMedium';
+    font-style:  normal;
+    font-weight: 500;
+    font-size: 1.1vw;
+    line-height: 131.52%;
+    color: #FFCACA;
+}
+
+.NavBut:hover{
+    color: #FFC400;
+    cursor: pointer;
 }
