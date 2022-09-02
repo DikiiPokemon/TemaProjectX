@@ -237,7 +237,7 @@ body{
 }
 
 .footerPromoContent{
-    width: 9.8vw;
+    width: 11.7vw;
     height: 7.3vw;
     display: flex;
     flex-direction: column;
@@ -251,7 +251,6 @@ body{
 }
 
 .footerPromoText{
-    width: 9.8vw;
     height: 1.5vw;
     font-family: 'MontserratBold';
     font-style: normal;
