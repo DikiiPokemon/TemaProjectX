@@ -710,4 +710,15 @@
         width: 6px;
         height: 10px;
     }
+
+    #BackTop{
+        padding: 17.94px  14.03px;
+        width: 66px;
+        height: 66px;  
+        border: 2px solid #FFFFFF;  
+    }
+
+    #ButtonTop{
+        height: 37.24px;
+    }
 }
