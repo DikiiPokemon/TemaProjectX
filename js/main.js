@@ -121,6 +121,12 @@ $(document).ready(function () {
   var switchInterval = setInterval(nextSlide, slideInterval);
   MobileYesOrNo();
 
+  (function () {
+    const ua = navigator.userAgent
+    const isIOSSafari = /iPhone|iPad|iPod/.test(ua) && /AppleWebKit.*Safari\//i.test(ua) && !ua.includes('Chrome')
+    if (isIOSSafari) document.documentElement.classList.add('ios-safari')
+  })();
+
   $('.menu-burger__header').click(function(){
     $('#Mob').toggleClass('open-menu');
     $('.menu-burger__header').toggleClass('open-menu');
