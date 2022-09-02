@@ -103,7 +103,8 @@
         bottom: 6.2vw;
         left: 4.7vw;
         position: absolute;
-        background-image: url(../images/MinLogo.svg);
+        -webkit-background-image: url(../images/MinLogo.svg);
+		background-image: url(../images/MinLogo.svg);
         background-size: cover;
         z-index: 30;
     }
@@ -174,7 +175,6 @@
 	position: relative;
 	border: 1px solid #090E34;
 	border-radius: 9.7vw;
-	background-position: center; 
     width: 9.4vw;
 	height: 9.4vw;
     display: block;
