@@ -179,6 +179,20 @@
 	color: #090E34;
 }
 
+.AUnderLineRu{
+    margin: 0.7vw 0 1.1vw 0;
+    width: 21.6vw;
+    height: 0.11vw;
+    background: #FFFFFF;
+}
+
+.VUnderLineRu{
+    margin: 0.7vw 0 1.1vw 0;
+    width: 15.7vw;
+    height: 0.11vw;
+    background: #FFFFFF;
+}
+
 @media(max-device-width: 767px){
 
     .header__navRu {

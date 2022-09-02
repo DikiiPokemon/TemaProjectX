@@ -171,6 +171,12 @@
     height: 0.4vw;
 }
 
+.AUnderLineRu{
+    margin: 2.5vw 0 2.8vw 0;
+    width: 88.3vw;
+    height: 0.4vw;
+}
+
 .AppleInfo li{
     padding-left: 6vw;
     font-size: 3.9vw;
@@ -184,6 +190,12 @@
 }
 
 .VUnderLine{
+    margin: 2.5vw 0 2.8vw 0;
+    width: 88.3vw;
+    height: 0.4vw;
+}
+
+.VUnderLineRu{
     margin: 2.5vw 0 2.8vw 0;
     width: 88.3vw;
     height: 0.4vw;
