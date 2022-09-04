@@ -56,7 +56,7 @@ body{
     -webkit-text-size-adjust: 100%;
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 700;
+    font-weight: normal;
     font-size: 65px;
     line-height: 131.52%;
     text-align: center;
@@ -159,7 +159,7 @@ body{
     background-color: #FFFFFF;
     font-family: 'MontserratBold';
     font-style: normal;
-    font-weight: 700;
+    font-weight: normal;
     font-size: 2.1vw;
     line-height: 131.52%;
     z-index: 10;
@@ -316,7 +316,7 @@ body{
     height: 1.5vw;
     font-family: 'MontserratBold';
     font-style: normal;
-    font-weight: 700;
+    font-weight: normal;
     font-size: 1.3vw;
     line-height: 1.5vw;
     text-align: center;
@@ -331,7 +331,7 @@ body{
     background: #D12A32;
     font-family: 'MontserratBold';
     font-style: normal;
-    font-weight: 700;
+    font-weight: normal;
     font-size: 3.4vw;
     line-height: 131.52%;  
     color: #FFF; 
@@ -365,7 +365,7 @@ body{
 .firstHeaderText{
     font-family: 'MontserratBold';
     font-style: normal;
-    font-weight: 700;
+    font-weight: normal;
     font-size: 3.2vw;
     line-height: 131.52%;
     color: #090E34;
@@ -469,7 +469,7 @@ body{
     width: 16.1vw;
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
     font-size: 0.8vw;
     line-height: 131.52%;
     color: #090E34;
@@ -491,7 +491,7 @@ body{
 .FeedBackName{
     font-family: 'MontserratBold';
     font-style: normal;
-    font-weight: 700;
+    font-weight: normal;
     font-size: 1.2vw;
     line-height: 131.52%;
     color: #090E34;
@@ -524,7 +524,7 @@ body{
 
     font-family: 'MontserratBold';
     font-style: normal;
-    font-weight: 700;
+    font-weight: normal;
     font-size: 3.2vw;
     line-height: 131.52%;
     color: #090E34;
@@ -677,7 +677,7 @@ body{
     justify-content: space-between;
     font-family: 'MontserratSemiBold';
     font-style: normal;
-    font-weight: 600;
+    font-weight: normal;
     font-size: 0.8vw;
     line-height: 131.52%;
     color: #FFCACA;
@@ -711,7 +711,7 @@ body{
     justify-content: center;
     font-family: 'MontserratBold';
     font-style: normal;
-    font-weight: 700;
+    font-weight: normal;
     font-size: 2.1vw;
     line-height: 131.52%;
 }
@@ -744,7 +744,7 @@ body{
     height: 12.2vw;
     font-family: 'MontserratBold';
     font-style: normal;
-    font-weight: 700;
+    font-weight: normal;
     font-size: 9.4vw;
     line-height: 131.52%;
 
@@ -781,7 +781,7 @@ body{
     margin: 0;
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
     font-size: 0.7vw;
     line-height: 0.9vw;
     color: #090E34;

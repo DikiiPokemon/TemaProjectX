@@ -30,7 +30,7 @@
     color: #090E34;
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
     font-size: 1.1vw;
     line-height: 131.52%;
 }
@@ -51,7 +51,7 @@
     justify-content: space-between;
     font-family: 'MontserratBold';
     font-style: normal;
-    font-weight: 700;
+    font-weight: normal;
     font-size: 2.1vw;
     line-height: 131.52%;
     color: #090E34;
@@ -87,7 +87,7 @@
     height: 1.5vw;
     font-family: 'MontserratBold';
     font-style: normal;
-    font-weight: 700;
+    font-weight: normal;
     font-size: 1.3vw;
     line-height: 1.5vw;
     text-align: center;
@@ -108,7 +108,7 @@
 
     font-family: 'MontserratBold';
     font-style: normal;
-    font-weight: 700;
+    font-weight: normal;
     font-size: 3.2vw;
     line-height: 131.52%;
     color: #090E34;
@@ -144,7 +144,7 @@
     justify-content: space-between;
     font-family: 'MontserratMedium';
     font-style: 6.25vw;
-    font-weight: 500;
+    font-weight: normal;
     font-size: 1.1vw;
     line-height: 131.52%;
 }
@@ -170,7 +170,7 @@
     justify-content: space-between;
     font-family: 'MontserratBold';
     font-style: normal;
-    font-weight: 700;
+    font-weight: normal;
     font-size: 2.1vw;
     line-height: 131.52%;
     color: #090E34;
@@ -213,7 +213,7 @@
 	text-decoration: none;
 	font-family: 'Montserrat';
 	font-style: normal;
-	font-weight: 400;
+	font-weight: normal;
 	font-size: 9.4vw;
 	line-height: 131.52%;
 	/* or 39px */
