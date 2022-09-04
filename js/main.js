@@ -221,8 +221,7 @@ if(scrollingBool){
 }else{
   x = $('.firstHeader').offset().top + parseInt($('.firstHeader').css('padding-top'));
 }
-
-window.scrollTo(0,x);
+$('html, body').animate({scrollTop:x}, '300');
 });
 
 $('.ButtonBenefit').click(function(){
@@ -233,7 +232,7 @@ $('.ButtonBenefit').click(function(){
     x = $('.secondHeader').offset().top + parseInt($('.secondHeader').css('padding-top'));
   }
   
-  window.scrollTo(0,x );
+  $('html, body').animate({scrollTop:x}, '300');
 });
 
 $('.ButtonCustomers').click(function(){
@@ -244,7 +243,7 @@ $('.ButtonCustomers').click(function(){
       x = $('.thirdHeader').offset().top;
     }
     
-    window.scrollTo(0,x );
+    $('html, body').animate({ scrollTop: x }, '300');
 });
 
 $('.ButtonJoinUs').click(function(){
@@ -255,7 +254,7 @@ $('.ButtonJoinUs').click(function(){
     x = $('.lastHeader').offset().top;
   }
   
-  window.scrollTo(0,x );
+  $('html, body').animate({ scrollTop: x }, '300');
 });    
 
 $('#ButtonPrevious').click(function() {
