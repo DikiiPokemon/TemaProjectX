@@ -216,17 +216,13 @@
 }
 
 .VitaminD3:hover > .Info{
-    width: 93.5vw;
-    height: 57.8vw;
-    left: 3.1vw;
-    top: 125vw;
+    width: 97vw;
+    height: 71.6vw;
     opacity: 1;
 }
 .AppleCider:hover > .Info{
-    width: 93.5vw;
-    height: 57.8vw;
-    left: 3.1vw;
-    top: 125vw;
+    width: 97vw;
+    height: 71.6vw;
     opacity: 1;
 }
 
