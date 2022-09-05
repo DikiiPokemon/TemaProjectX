@@ -10,18 +10,30 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     "backdrop-filter": "none",
     'position': 'absolute' 
   });
+ // slideCount = $('#Mobile').children().length;
+ if(document.documentElement.clientWidth > 1000){
+  slideCount = $('#Desktop').children().length;
+  mobileBool = `#`;
+}else{
   slideCount = $('#Mobile').children().length;
   mobileBool =`#M`;
+}
+
+  
   scrollingBool = false;
-  console.log(scrollingBool)// код для мобильных устройств
+  console.log(mobileBool)// код для мобильных устройств
 } else {
   $('.header').css('position', 'fixed');
     slideCount = $('#Desktop').children().length;
     scrollingBool = true;
-    mobileBool = `#`;
-    console.log(scrollingBool)// код для обычных устройств
+    mobileBool = `#`;// код для обычных устройств
 }
+
 }
+
+window.addEventListener("orientationchange", function() {
+  location.reload();
+}, false);
 
 /*function WindowSize(){
   if (document.documentElement.clientWidth > 767) {
