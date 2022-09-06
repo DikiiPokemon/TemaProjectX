@@ -276,7 +276,8 @@
             <!--Mobile Adoptation Slider-->
             <div class="MobileSliderConteiner">
               <div class="ViewArea">
-                <div class="SlideWrapper" id="Mobile">
+                <div class="SlideWrapper" id="Mobile" ontouchstart="touchStart(event,'Mobile');" ontouchend="touchEnd(event);" 
+                ontouchmove="touchMove(event);" ontouchcancel="touchCancel(event);">
                   <div class="Slide">
                     <div class="SlideContainer">
                       <img src="images/FirstSlide.png" class="Slide-Img">
