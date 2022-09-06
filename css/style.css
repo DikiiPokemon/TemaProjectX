@@ -193,8 +193,8 @@ body{
 }
 
 #LemonJ{
-    width: 4.1vw; 
-    height: 2.8vw;
+    width: 5.2vw; 
+    height: 3.5vw;
 }
 
 #ArrowJ{
@@ -203,8 +203,8 @@ body{
 }
 
 #AppleJ{
-    width: 3.2vw; 
-    height: 2.8vw;
+    width: 5.2vw; 
+    height: 3.5vw;
 }
 
 .content-wrapper{
@@ -636,10 +636,11 @@ body{
     display: -ms-flexbox;      /* TWEENER - IE 10 */
     display: -webkit-flex;     /* NEW - Chrome */
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     flex-direction: column;
 }
+
 
 .footerHeaders{
     width: 32.8vw;
