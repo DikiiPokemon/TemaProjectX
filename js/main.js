@@ -52,7 +52,9 @@ window.addEventListener("orientationchange", function() {
   }
 }*/
 
-
+$('#HLRu').click(function(){
+  document.location.href = 'indexRu.html'
+});
 
 
  $(window).scroll(function(){

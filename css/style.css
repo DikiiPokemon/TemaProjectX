@@ -92,7 +92,7 @@ body{
     width: 16vw;
     height: 5.2vw;
     background-image: url(../images/Logo.svg);
-    background-size: cover;
+    background-size: contain;
 }
 
 .buttonContainer{

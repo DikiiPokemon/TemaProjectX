@@ -93,6 +93,10 @@
 	display: flex;
 }
 
+.HiddenLangs.show a{
+    display: block;
+}
+
 .HiddenLangs li{
 	list-style: none;
 	font-family: 'Montserrat';
@@ -104,6 +108,7 @@
 }
 
 .HiddenLangs a{
+    display: block;
 	text-decoration: none;
 	font-family: 'Montserrat';
 	font-style: normal;
@@ -111,6 +116,7 @@
     font-size: 0.7vw;
 	line-height: 0.9vw;
 	color: #090E34;
+    padding-right: 1.6vw;
 }
 
 .HiddenLangs a:hover{
@@ -206,6 +212,7 @@
     .HiddenLangs a{
         font-size: 4.4vw;
 	    line-height: 5.3vw;
+        padding-right: 9.4vw;
     }
 
     .SelectLang img{

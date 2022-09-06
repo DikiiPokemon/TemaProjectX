@@ -717,6 +717,7 @@
     .HiddenLangs a{
         font-size: 14px;
 	    line-height: 17px;
+        padding-right: 30px;
     }
 
     .SelectLang img{
