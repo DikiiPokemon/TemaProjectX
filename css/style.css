@@ -167,7 +167,7 @@ body{
 }
 
 .contentConteiner{
-    width: 40vw;
+    width: 38.2vw;
     height: 5.2vw;
     display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
     display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
@@ -180,7 +180,7 @@ body{
 }
 
 .contentConteinerUp{
-    width: 40vw;
+    width: 30.2vw;
     height: 5.2vw;
     display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
     display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
@@ -193,18 +193,18 @@ body{
 }
 
 #LemonJ{
-    width: 5.2vw; 
-    height: 3.5vw;
+    width: 3.4vw; 
+    height: 2.3vw;
 }
 
 #ArrowJ{
-    width: 5.7vw;
-    height: 5.7vw;
+    width: 3.4vw;
+    height: 3.3vw;
 }
 
 #AppleJ{
-    width: 5.2vw; 
-    height: 3.5vw;
+    width: 3.4vw; 
+    height: 2.3vw;
 }
 
 .content-wrapper{
