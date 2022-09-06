@@ -52,10 +52,6 @@ window.addEventListener("orientationchange", function() {
   }
 }*/
 
-$('#HLRu').click(function(){
-  document.location.href = 'indexRu.html'
-});
-
 
  $(window).scroll(function(){
   if  ($(window).scrollTop() == $(document).height() - $(window).height()) 
