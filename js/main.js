@@ -235,9 +235,9 @@ $('.ButtonCustomers').click(function(){
 $('.ButtonJoinUs').click(function(){
   var x;
   if(scrollingBool){
-    x = $('.lastHeader').offset().top - $('.header').height();
+    x = $('.JoinUsBottom').offset().top - $('.header').height();
   }else{
-    x = $('.lastHeader').offset().top;
+    x = $('.JoinUsMobile').offset().top;
   }
   
   $('html, body').animate({ scrollTop: x }, '300');
